@@ -86,9 +86,9 @@ local function VKPNBFN_fake_script() -- TextButton.LocalScript
 			-- Teleport the player to the part
 			player.Character.Archivable = true
 			player.Character:SetPrimaryPartCFrame(part.CFrame)
-			task.wait(0.05)
+			task.wait(0.2)
 			player.Character.HumanoidRootPart.Anchored = true
-			task.wait(0.05)
+			task.wait(0.1)
 			local clone = player.Character:Clone()
 			clone.Parent = workspace
 			clone.Name = "CloneChar"
@@ -123,9 +123,9 @@ local function VKPNBFN_fake_script() -- TextButton.LocalScript
             currentclone:Destroy()
             player.Character = realuser
             game.workspace.Camera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
-            task.wait(0.05)
+            task.wait(0.1)
             player.Character:SetPrimaryPartCFrame(newpart.CFrame + Vector3.new(0,5,0))
-            task.wait(0.05)
+            task.wait(0.1)
             newpart:Destroy()
 		end
 	end)
