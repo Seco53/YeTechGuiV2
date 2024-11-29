@@ -245,14 +245,14 @@ YeTechDrawGui.Frame.Parent = YeTechDrawGui.YeTechDrawGui
 YeTechDrawGui.Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 YeTechDrawGui.Frame.BorderColor3 = Color3.fromRGB(255, 247, 0)
 YeTechDrawGui.Frame.BorderSizePixel = 2
-YeTechDrawGui.Frame.Position = UDim2.new(0.341176271, 0, 0.872074902, 0)
-YeTechDrawGui.Frame.Size = UDim2.new(0.356877327, 0, 0.817472696, 0)
+YeTechDrawGui.Frame.Position = UDim2.new(0.321252137, 0, 0.137285486, 0)
+YeTechDrawGui.Frame.Size = UDim2.new(0.356877357, 0, 0.862714529, 0)
 
 YeTechDrawGui.TextButton.Parent = YeTechDrawGui.Frame
 YeTechDrawGui.TextButton.BackgroundColor3 = Color3.fromRGB(42, 39, 0)
 YeTechDrawGui.TextButton.BorderColor3 = Color3.fromRGB(255, 247, 0)
 YeTechDrawGui.TextButton.BorderSizePixel = 2
-YeTechDrawGui.TextButton.Position = UDim2.new(0.188810945, 0, 0.856471241, 0)
+YeTechDrawGui.TextButton.Position = UDim2.new(0.236664429, 0, 0.890883923, 0)
 YeTechDrawGui.TextButton.Size = UDim2.new(0.520833313, 0, 0.0954198465, 0)
 YeTechDrawGui.TextButton.Font = Enum.Font.SourceSans
 YeTechDrawGui.TextButton.Text = "Chat"
@@ -1905,7 +1905,7 @@ YeTechDrawGui.UIAspectRatioConstraint_114.AspectRatio = 0.761
 
 -- Scripts:
 
-local function LHOQ_fake_script() -- YeTechDrawGui.TextButton.LocalScript 
+local function JLCZLTT_fake_script() -- YeTechDrawGui.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.TextButton)
 
 	-- Reference the button
@@ -1941,9 +1941,9 @@ local function LHOQ_fake_script() -- YeTechDrawGui.TextButton.LocalScript
 				-- Build the message based on the colors of the slots
 				for _, slot in ipairs(slots) do
 					if slot.BackgroundColor3 == Color3.fromRGB(0, 0, 0) then
-						message = message .. "◼" -- Add black square to the message
+						message = message .. "⬛" -- Add black square to the message
 					else
-						message = message .. "◻" -- Add white square to the message
+						message = message .. "⬜" -- Add white square to the message
 					end
 				end
 	
@@ -1973,8 +1973,8 @@ local function LHOQ_fake_script() -- YeTechDrawGui.TextButton.LocalScript
 	button.MouseButton1Click:Connect(sendMessage)
 	
 end
-coroutine.wrap(LHOQ_fake_script)()
-local function LRAOOP_fake_script() -- YeTechDrawGui.Slot1.LocalScript 
+coroutine.wrap(JLCZLTT_fake_script)()
+local function CBZN_fake_script() -- YeTechDrawGui.Slot1.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1)
 
 	local currentcolor = false
@@ -1989,8 +1989,8 @@ local function LRAOOP_fake_script() -- YeTechDrawGui.Slot1.LocalScript
 		
 	end)
 end
-coroutine.wrap(LRAOOP_fake_script)()
-local function WAYMMZ_fake_script() -- YeTechDrawGui.Slot2.LocalScript 
+coroutine.wrap(CBZN_fake_script)()
+local function LLNXQXQ_fake_script() -- YeTechDrawGui.Slot2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2)
 
 	local currentcolor = false
@@ -2005,8 +2005,8 @@ local function WAYMMZ_fake_script() -- YeTechDrawGui.Slot2.LocalScript
 		
 	end)
 end
-coroutine.wrap(WAYMMZ_fake_script)()
-local function CJPEOTA_fake_script() -- YeTechDrawGui.Slot3.LocalScript 
+coroutine.wrap(LLNXQXQ_fake_script)()
+local function SXVHF_fake_script() -- YeTechDrawGui.Slot3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3)
 
 	local currentcolor = false
@@ -2021,8 +2021,8 @@ local function CJPEOTA_fake_script() -- YeTechDrawGui.Slot3.LocalScript
 		
 	end)
 end
-coroutine.wrap(CJPEOTA_fake_script)()
-local function LSABUU_fake_script() -- YeTechDrawGui.Slot4.LocalScript 
+coroutine.wrap(SXVHF_fake_script)()
+local function RUMOJW_fake_script() -- YeTechDrawGui.Slot4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4)
 
 	local currentcolor = false
@@ -2037,8 +2037,8 @@ local function LSABUU_fake_script() -- YeTechDrawGui.Slot4.LocalScript
 		
 	end)
 end
-coroutine.wrap(LSABUU_fake_script)()
-local function PNNKHU_fake_script() -- YeTechDrawGui.Slot5.LocalScript 
+coroutine.wrap(RUMOJW_fake_script)()
+local function IRIT_fake_script() -- YeTechDrawGui.Slot5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5)
 
 	local currentcolor = false
@@ -2053,8 +2053,8 @@ local function PNNKHU_fake_script() -- YeTechDrawGui.Slot5.LocalScript
 		
 	end)
 end
-coroutine.wrap(PNNKHU_fake_script)()
-local function TCTZLIL_fake_script() -- YeTechDrawGui.Slot6.LocalScript 
+coroutine.wrap(IRIT_fake_script)()
+local function IHXPVLS_fake_script() -- YeTechDrawGui.Slot6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6)
 
 	local currentcolor = false
@@ -2069,8 +2069,8 @@ local function TCTZLIL_fake_script() -- YeTechDrawGui.Slot6.LocalScript
 		
 	end)
 end
-coroutine.wrap(TCTZLIL_fake_script)()
-local function OWFAVYL_fake_script() -- YeTechDrawGui.Slot7.LocalScript 
+coroutine.wrap(IHXPVLS_fake_script)()
+local function NRVYEBB_fake_script() -- YeTechDrawGui.Slot7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7)
 
 	local currentcolor = false
@@ -2085,8 +2085,8 @@ local function OWFAVYL_fake_script() -- YeTechDrawGui.Slot7.LocalScript
 		
 	end)
 end
-coroutine.wrap(OWFAVYL_fake_script)()
-local function VJHTY_fake_script() -- YeTechDrawGui.Slot8.LocalScript 
+coroutine.wrap(NRVYEBB_fake_script)()
+local function CNQXGYM_fake_script() -- YeTechDrawGui.Slot8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8)
 
 	local currentcolor = false
@@ -2101,8 +2101,8 @@ local function VJHTY_fake_script() -- YeTechDrawGui.Slot8.LocalScript
 		
 	end)
 end
-coroutine.wrap(VJHTY_fake_script)()
-local function OBSWTAJ_fake_script() -- YeTechDrawGui.Slot9.LocalScript 
+coroutine.wrap(CNQXGYM_fake_script)()
+local function ARUPST_fake_script() -- YeTechDrawGui.Slot9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9)
 
 	local currentcolor = false
@@ -2117,8 +2117,8 @@ local function OBSWTAJ_fake_script() -- YeTechDrawGui.Slot9.LocalScript
 		
 	end)
 end
-coroutine.wrap(OBSWTAJ_fake_script)()
-local function TVGWVJ_fake_script() -- YeTechDrawGui.Slot10.LocalScript 
+coroutine.wrap(ARUPST_fake_script)()
+local function SZAX_fake_script() -- YeTechDrawGui.Slot10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10)
 
 	local currentcolor = false
@@ -2133,8 +2133,8 @@ local function TVGWVJ_fake_script() -- YeTechDrawGui.Slot10.LocalScript
 		
 	end)
 end
-coroutine.wrap(TVGWVJ_fake_script)()
-local function VVHBTMV_fake_script() -- YeTechDrawGui.Slot1_2.LocalScript 
+coroutine.wrap(SZAX_fake_script)()
+local function TWMQE_fake_script() -- YeTechDrawGui.Slot1_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_2)
 
 	local currentcolor = false
@@ -2149,8 +2149,8 @@ local function VVHBTMV_fake_script() -- YeTechDrawGui.Slot1_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(VVHBTMV_fake_script)()
-local function CAIJS_fake_script() -- YeTechDrawGui.Slot2_2.LocalScript 
+coroutine.wrap(TWMQE_fake_script)()
+local function OTDV_fake_script() -- YeTechDrawGui.Slot2_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_2)
 
 	local currentcolor = false
@@ -2165,8 +2165,8 @@ local function CAIJS_fake_script() -- YeTechDrawGui.Slot2_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(CAIJS_fake_script)()
-local function PCIB_fake_script() -- YeTechDrawGui.Slot3_2.LocalScript 
+coroutine.wrap(OTDV_fake_script)()
+local function EIKIF_fake_script() -- YeTechDrawGui.Slot3_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_2)
 
 	local currentcolor = false
@@ -2181,8 +2181,8 @@ local function PCIB_fake_script() -- YeTechDrawGui.Slot3_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(PCIB_fake_script)()
-local function ACCKZZ_fake_script() -- YeTechDrawGui.Slot4_2.LocalScript 
+coroutine.wrap(EIKIF_fake_script)()
+local function EKYQ_fake_script() -- YeTechDrawGui.Slot4_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_2)
 
 	local currentcolor = false
@@ -2197,8 +2197,8 @@ local function ACCKZZ_fake_script() -- YeTechDrawGui.Slot4_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(ACCKZZ_fake_script)()
-local function DHQS_fake_script() -- YeTechDrawGui.Slot5_2.LocalScript 
+coroutine.wrap(EKYQ_fake_script)()
+local function CPNR_fake_script() -- YeTechDrawGui.Slot5_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_2)
 
 	local currentcolor = false
@@ -2213,8 +2213,8 @@ local function DHQS_fake_script() -- YeTechDrawGui.Slot5_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(DHQS_fake_script)()
-local function DLPFGE_fake_script() -- YeTechDrawGui.Slot6_2.LocalScript 
+coroutine.wrap(CPNR_fake_script)()
+local function QQSBHP_fake_script() -- YeTechDrawGui.Slot6_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_2)
 
 	local currentcolor = false
@@ -2229,8 +2229,8 @@ local function DLPFGE_fake_script() -- YeTechDrawGui.Slot6_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(DLPFGE_fake_script)()
-local function DCLY_fake_script() -- YeTechDrawGui.Slot7_2.LocalScript 
+coroutine.wrap(QQSBHP_fake_script)()
+local function QSVB_fake_script() -- YeTechDrawGui.Slot7_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_2)
 
 	local currentcolor = false
@@ -2245,8 +2245,8 @@ local function DCLY_fake_script() -- YeTechDrawGui.Slot7_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(DCLY_fake_script)()
-local function XSPXZL_fake_script() -- YeTechDrawGui.Slot8_2.LocalScript 
+coroutine.wrap(QSVB_fake_script)()
+local function FLQCMBY_fake_script() -- YeTechDrawGui.Slot8_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_2)
 
 	local currentcolor = false
@@ -2261,8 +2261,8 @@ local function XSPXZL_fake_script() -- YeTechDrawGui.Slot8_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(XSPXZL_fake_script)()
-local function IRKY_fake_script() -- YeTechDrawGui.Slot9_2.LocalScript 
+coroutine.wrap(FLQCMBY_fake_script)()
+local function BEJO_fake_script() -- YeTechDrawGui.Slot9_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_2)
 
 	local currentcolor = false
@@ -2277,8 +2277,8 @@ local function IRKY_fake_script() -- YeTechDrawGui.Slot9_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(IRKY_fake_script)()
-local function WUPVP_fake_script() -- YeTechDrawGui.Slot10_2.LocalScript 
+coroutine.wrap(BEJO_fake_script)()
+local function BECWWKN_fake_script() -- YeTechDrawGui.Slot10_2.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_2)
 
 	local currentcolor = false
@@ -2293,8 +2293,8 @@ local function WUPVP_fake_script() -- YeTechDrawGui.Slot10_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(WUPVP_fake_script)()
-local function STXACEG_fake_script() -- YeTechDrawGui.Slot1_3.LocalScript 
+coroutine.wrap(BECWWKN_fake_script)()
+local function TCLF_fake_script() -- YeTechDrawGui.Slot1_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_3)
 
 	local currentcolor = false
@@ -2309,8 +2309,8 @@ local function STXACEG_fake_script() -- YeTechDrawGui.Slot1_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(STXACEG_fake_script)()
-local function DEVC_fake_script() -- YeTechDrawGui.Slot2_3.LocalScript 
+coroutine.wrap(TCLF_fake_script)()
+local function WKGXAN_fake_script() -- YeTechDrawGui.Slot2_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_3)
 
 	local currentcolor = false
@@ -2325,8 +2325,8 @@ local function DEVC_fake_script() -- YeTechDrawGui.Slot2_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(DEVC_fake_script)()
-local function DQAL_fake_script() -- YeTechDrawGui.Slot3_3.LocalScript 
+coroutine.wrap(WKGXAN_fake_script)()
+local function IAQLQZC_fake_script() -- YeTechDrawGui.Slot3_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_3)
 
 	local currentcolor = false
@@ -2341,8 +2341,8 @@ local function DQAL_fake_script() -- YeTechDrawGui.Slot3_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(DQAL_fake_script)()
-local function FSMR_fake_script() -- YeTechDrawGui.Slot4_3.LocalScript 
+coroutine.wrap(IAQLQZC_fake_script)()
+local function JEOZZEH_fake_script() -- YeTechDrawGui.Slot4_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_3)
 
 	local currentcolor = false
@@ -2357,8 +2357,8 @@ local function FSMR_fake_script() -- YeTechDrawGui.Slot4_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(FSMR_fake_script)()
-local function LBJDLZ_fake_script() -- YeTechDrawGui.Slot5_3.LocalScript 
+coroutine.wrap(JEOZZEH_fake_script)()
+local function RMICHWL_fake_script() -- YeTechDrawGui.Slot5_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_3)
 
 	local currentcolor = false
@@ -2373,8 +2373,8 @@ local function LBJDLZ_fake_script() -- YeTechDrawGui.Slot5_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(LBJDLZ_fake_script)()
-local function XYVXCH_fake_script() -- YeTechDrawGui.Slot6_3.LocalScript 
+coroutine.wrap(RMICHWL_fake_script)()
+local function FRQAB_fake_script() -- YeTechDrawGui.Slot6_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_3)
 
 	local currentcolor = false
@@ -2389,8 +2389,8 @@ local function XYVXCH_fake_script() -- YeTechDrawGui.Slot6_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(XYVXCH_fake_script)()
-local function SVGE_fake_script() -- YeTechDrawGui.Slot7_3.LocalScript 
+coroutine.wrap(FRQAB_fake_script)()
+local function JIAT_fake_script() -- YeTechDrawGui.Slot7_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_3)
 
 	local currentcolor = false
@@ -2405,8 +2405,8 @@ local function SVGE_fake_script() -- YeTechDrawGui.Slot7_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(SVGE_fake_script)()
-local function RMFGZJ_fake_script() -- YeTechDrawGui.Slot8_3.LocalScript 
+coroutine.wrap(JIAT_fake_script)()
+local function SBBWMZD_fake_script() -- YeTechDrawGui.Slot8_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_3)
 
 	local currentcolor = false
@@ -2421,8 +2421,8 @@ local function RMFGZJ_fake_script() -- YeTechDrawGui.Slot8_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(RMFGZJ_fake_script)()
-local function GXFWWN_fake_script() -- YeTechDrawGui.Slot9_3.LocalScript 
+coroutine.wrap(SBBWMZD_fake_script)()
+local function WTCLZQ_fake_script() -- YeTechDrawGui.Slot9_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_3)
 
 	local currentcolor = false
@@ -2437,8 +2437,8 @@ local function GXFWWN_fake_script() -- YeTechDrawGui.Slot9_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(GXFWWN_fake_script)()
-local function RNXNS_fake_script() -- YeTechDrawGui.Slot10_3.LocalScript 
+coroutine.wrap(WTCLZQ_fake_script)()
+local function PVNWA_fake_script() -- YeTechDrawGui.Slot10_3.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_3)
 
 	local currentcolor = false
@@ -2453,8 +2453,8 @@ local function RNXNS_fake_script() -- YeTechDrawGui.Slot10_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(RNXNS_fake_script)()
-local function WHCKP_fake_script() -- YeTechDrawGui.Slot1_4.LocalScript 
+coroutine.wrap(PVNWA_fake_script)()
+local function ZMQZTRC_fake_script() -- YeTechDrawGui.Slot1_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_4)
 
 	local currentcolor = false
@@ -2469,8 +2469,8 @@ local function WHCKP_fake_script() -- YeTechDrawGui.Slot1_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(WHCKP_fake_script)()
-local function JSREA_fake_script() -- YeTechDrawGui.Slot2_4.LocalScript 
+coroutine.wrap(ZMQZTRC_fake_script)()
+local function ADEONPI_fake_script() -- YeTechDrawGui.Slot2_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_4)
 
 	local currentcolor = false
@@ -2485,8 +2485,8 @@ local function JSREA_fake_script() -- YeTechDrawGui.Slot2_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(JSREA_fake_script)()
-local function BNRLILO_fake_script() -- YeTechDrawGui.Slot3_4.LocalScript 
+coroutine.wrap(ADEONPI_fake_script)()
+local function YUPFCRM_fake_script() -- YeTechDrawGui.Slot3_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_4)
 
 	local currentcolor = false
@@ -2501,8 +2501,8 @@ local function BNRLILO_fake_script() -- YeTechDrawGui.Slot3_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(BNRLILO_fake_script)()
-local function KJRZR_fake_script() -- YeTechDrawGui.Slot4_4.LocalScript 
+coroutine.wrap(YUPFCRM_fake_script)()
+local function IIHSOA_fake_script() -- YeTechDrawGui.Slot4_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_4)
 
 	local currentcolor = false
@@ -2517,8 +2517,8 @@ local function KJRZR_fake_script() -- YeTechDrawGui.Slot4_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(KJRZR_fake_script)()
-local function XQUYSA_fake_script() -- YeTechDrawGui.Slot5_4.LocalScript 
+coroutine.wrap(IIHSOA_fake_script)()
+local function QJPNXL_fake_script() -- YeTechDrawGui.Slot5_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_4)
 
 	local currentcolor = false
@@ -2533,8 +2533,8 @@ local function XQUYSA_fake_script() -- YeTechDrawGui.Slot5_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(XQUYSA_fake_script)()
-local function KRGYNUH_fake_script() -- YeTechDrawGui.Slot6_4.LocalScript 
+coroutine.wrap(QJPNXL_fake_script)()
+local function PXLJH_fake_script() -- YeTechDrawGui.Slot6_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_4)
 
 	local currentcolor = false
@@ -2549,8 +2549,8 @@ local function KRGYNUH_fake_script() -- YeTechDrawGui.Slot6_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(KRGYNUH_fake_script)()
-local function JFFLWP_fake_script() -- YeTechDrawGui.Slot7_4.LocalScript 
+coroutine.wrap(PXLJH_fake_script)()
+local function JUAKKS_fake_script() -- YeTechDrawGui.Slot7_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_4)
 
 	local currentcolor = false
@@ -2565,8 +2565,8 @@ local function JFFLWP_fake_script() -- YeTechDrawGui.Slot7_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(JFFLWP_fake_script)()
-local function HZUOUA_fake_script() -- YeTechDrawGui.Slot8_4.LocalScript 
+coroutine.wrap(JUAKKS_fake_script)()
+local function DTIS_fake_script() -- YeTechDrawGui.Slot8_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_4)
 
 	local currentcolor = false
@@ -2581,8 +2581,8 @@ local function HZUOUA_fake_script() -- YeTechDrawGui.Slot8_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(HZUOUA_fake_script)()
-local function VDTAY_fake_script() -- YeTechDrawGui.Slot9_4.LocalScript 
+coroutine.wrap(DTIS_fake_script)()
+local function OEWWQ_fake_script() -- YeTechDrawGui.Slot9_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_4)
 
 	local currentcolor = false
@@ -2597,8 +2597,8 @@ local function VDTAY_fake_script() -- YeTechDrawGui.Slot9_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(VDTAY_fake_script)()
-local function IREZUE_fake_script() -- YeTechDrawGui.Slot10_4.LocalScript 
+coroutine.wrap(OEWWQ_fake_script)()
+local function FOLECU_fake_script() -- YeTechDrawGui.Slot10_4.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_4)
 
 	local currentcolor = false
@@ -2613,8 +2613,8 @@ local function IREZUE_fake_script() -- YeTechDrawGui.Slot10_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(IREZUE_fake_script)()
-local function JIQP_fake_script() -- YeTechDrawGui.Slot1_5.LocalScript 
+coroutine.wrap(FOLECU_fake_script)()
+local function MFBB_fake_script() -- YeTechDrawGui.Slot1_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_5)
 
 	local currentcolor = false
@@ -2629,8 +2629,8 @@ local function JIQP_fake_script() -- YeTechDrawGui.Slot1_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(JIQP_fake_script)()
-local function ZJECB_fake_script() -- YeTechDrawGui.Slot2_5.LocalScript 
+coroutine.wrap(MFBB_fake_script)()
+local function PTHKC_fake_script() -- YeTechDrawGui.Slot2_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_5)
 
 	local currentcolor = false
@@ -2645,8 +2645,8 @@ local function ZJECB_fake_script() -- YeTechDrawGui.Slot2_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZJECB_fake_script)()
-local function ECLAQLL_fake_script() -- YeTechDrawGui.Slot3_5.LocalScript 
+coroutine.wrap(PTHKC_fake_script)()
+local function NPGRMF_fake_script() -- YeTechDrawGui.Slot3_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_5)
 
 	local currentcolor = false
@@ -2661,8 +2661,8 @@ local function ECLAQLL_fake_script() -- YeTechDrawGui.Slot3_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(ECLAQLL_fake_script)()
-local function DYDGC_fake_script() -- YeTechDrawGui.Slot4_5.LocalScript 
+coroutine.wrap(NPGRMF_fake_script)()
+local function YDATAKZ_fake_script() -- YeTechDrawGui.Slot4_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_5)
 
 	local currentcolor = false
@@ -2677,8 +2677,8 @@ local function DYDGC_fake_script() -- YeTechDrawGui.Slot4_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(DYDGC_fake_script)()
-local function VKDAHU_fake_script() -- YeTechDrawGui.Slot5_5.LocalScript 
+coroutine.wrap(YDATAKZ_fake_script)()
+local function KRAJKK_fake_script() -- YeTechDrawGui.Slot5_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_5)
 
 	local currentcolor = false
@@ -2693,8 +2693,8 @@ local function VKDAHU_fake_script() -- YeTechDrawGui.Slot5_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(VKDAHU_fake_script)()
-local function WZNIERG_fake_script() -- YeTechDrawGui.Slot6_5.LocalScript 
+coroutine.wrap(KRAJKK_fake_script)()
+local function RDLLP_fake_script() -- YeTechDrawGui.Slot6_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_5)
 
 	local currentcolor = false
@@ -2709,8 +2709,8 @@ local function WZNIERG_fake_script() -- YeTechDrawGui.Slot6_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(WZNIERG_fake_script)()
-local function YANCU_fake_script() -- YeTechDrawGui.Slot7_5.LocalScript 
+coroutine.wrap(RDLLP_fake_script)()
+local function EJNIMTN_fake_script() -- YeTechDrawGui.Slot7_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_5)
 
 	local currentcolor = false
@@ -2725,8 +2725,8 @@ local function YANCU_fake_script() -- YeTechDrawGui.Slot7_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(YANCU_fake_script)()
-local function OHXGP_fake_script() -- YeTechDrawGui.Slot8_5.LocalScript 
+coroutine.wrap(EJNIMTN_fake_script)()
+local function MICHRJX_fake_script() -- YeTechDrawGui.Slot8_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_5)
 
 	local currentcolor = false
@@ -2741,8 +2741,8 @@ local function OHXGP_fake_script() -- YeTechDrawGui.Slot8_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(OHXGP_fake_script)()
-local function BITIV_fake_script() -- YeTechDrawGui.Slot9_5.LocalScript 
+coroutine.wrap(MICHRJX_fake_script)()
+local function EMDMVI_fake_script() -- YeTechDrawGui.Slot9_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_5)
 
 	local currentcolor = false
@@ -2757,8 +2757,8 @@ local function BITIV_fake_script() -- YeTechDrawGui.Slot9_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(BITIV_fake_script)()
-local function WFUDV_fake_script() -- YeTechDrawGui.Slot10_5.LocalScript 
+coroutine.wrap(EMDMVI_fake_script)()
+local function NKEZU_fake_script() -- YeTechDrawGui.Slot10_5.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_5)
 
 	local currentcolor = false
@@ -2773,8 +2773,8 @@ local function WFUDV_fake_script() -- YeTechDrawGui.Slot10_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(WFUDV_fake_script)()
-local function OFDZ_fake_script() -- YeTechDrawGui.Slot1_6.LocalScript 
+coroutine.wrap(NKEZU_fake_script)()
+local function WZCOQ_fake_script() -- YeTechDrawGui.Slot1_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_6)
 
 	local currentcolor = false
@@ -2789,8 +2789,8 @@ local function OFDZ_fake_script() -- YeTechDrawGui.Slot1_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(OFDZ_fake_script)()
-local function BFJJ_fake_script() -- YeTechDrawGui.Slot2_6.LocalScript 
+coroutine.wrap(WZCOQ_fake_script)()
+local function LEWNGDX_fake_script() -- YeTechDrawGui.Slot2_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_6)
 
 	local currentcolor = false
@@ -2805,8 +2805,8 @@ local function BFJJ_fake_script() -- YeTechDrawGui.Slot2_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(BFJJ_fake_script)()
-local function TDHBH_fake_script() -- YeTechDrawGui.Slot3_6.LocalScript 
+coroutine.wrap(LEWNGDX_fake_script)()
+local function PMGCC_fake_script() -- YeTechDrawGui.Slot3_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_6)
 
 	local currentcolor = false
@@ -2821,8 +2821,8 @@ local function TDHBH_fake_script() -- YeTechDrawGui.Slot3_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(TDHBH_fake_script)()
-local function ZYUE_fake_script() -- YeTechDrawGui.Slot4_6.LocalScript 
+coroutine.wrap(PMGCC_fake_script)()
+local function HSAY_fake_script() -- YeTechDrawGui.Slot4_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_6)
 
 	local currentcolor = false
@@ -2837,8 +2837,8 @@ local function ZYUE_fake_script() -- YeTechDrawGui.Slot4_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZYUE_fake_script)()
-local function TEAGG_fake_script() -- YeTechDrawGui.Slot5_6.LocalScript 
+coroutine.wrap(HSAY_fake_script)()
+local function EJFJ_fake_script() -- YeTechDrawGui.Slot5_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_6)
 
 	local currentcolor = false
@@ -2853,8 +2853,8 @@ local function TEAGG_fake_script() -- YeTechDrawGui.Slot5_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(TEAGG_fake_script)()
-local function ZRHRO_fake_script() -- YeTechDrawGui.Slot6_6.LocalScript 
+coroutine.wrap(EJFJ_fake_script)()
+local function DRONYYI_fake_script() -- YeTechDrawGui.Slot6_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_6)
 
 	local currentcolor = false
@@ -2869,8 +2869,8 @@ local function ZRHRO_fake_script() -- YeTechDrawGui.Slot6_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZRHRO_fake_script)()
-local function CTWMD_fake_script() -- YeTechDrawGui.Slot7_6.LocalScript 
+coroutine.wrap(DRONYYI_fake_script)()
+local function FEOM_fake_script() -- YeTechDrawGui.Slot7_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_6)
 
 	local currentcolor = false
@@ -2885,8 +2885,8 @@ local function CTWMD_fake_script() -- YeTechDrawGui.Slot7_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(CTWMD_fake_script)()
-local function AVVRY_fake_script() -- YeTechDrawGui.Slot8_6.LocalScript 
+coroutine.wrap(FEOM_fake_script)()
+local function ONNL_fake_script() -- YeTechDrawGui.Slot8_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_6)
 
 	local currentcolor = false
@@ -2901,8 +2901,8 @@ local function AVVRY_fake_script() -- YeTechDrawGui.Slot8_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(AVVRY_fake_script)()
-local function VIBEQ_fake_script() -- YeTechDrawGui.Slot9_6.LocalScript 
+coroutine.wrap(ONNL_fake_script)()
+local function FNUQDPD_fake_script() -- YeTechDrawGui.Slot9_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_6)
 
 	local currentcolor = false
@@ -2917,8 +2917,8 @@ local function VIBEQ_fake_script() -- YeTechDrawGui.Slot9_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(VIBEQ_fake_script)()
-local function UNOCNDN_fake_script() -- YeTechDrawGui.Slot10_6.LocalScript 
+coroutine.wrap(FNUQDPD_fake_script)()
+local function TNYEIOY_fake_script() -- YeTechDrawGui.Slot10_6.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_6)
 
 	local currentcolor = false
@@ -2933,8 +2933,8 @@ local function UNOCNDN_fake_script() -- YeTechDrawGui.Slot10_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(UNOCNDN_fake_script)()
-local function FLGIRO_fake_script() -- YeTechDrawGui.Slot1_7.LocalScript 
+coroutine.wrap(TNYEIOY_fake_script)()
+local function DJEGHU_fake_script() -- YeTechDrawGui.Slot1_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_7)
 
 	local currentcolor = false
@@ -2949,8 +2949,8 @@ local function FLGIRO_fake_script() -- YeTechDrawGui.Slot1_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(FLGIRO_fake_script)()
-local function DNRWA_fake_script() -- YeTechDrawGui.Slot2_7.LocalScript 
+coroutine.wrap(DJEGHU_fake_script)()
+local function KSSZQ_fake_script() -- YeTechDrawGui.Slot2_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_7)
 
 	local currentcolor = false
@@ -2965,8 +2965,8 @@ local function DNRWA_fake_script() -- YeTechDrawGui.Slot2_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(DNRWA_fake_script)()
-local function SJBGC_fake_script() -- YeTechDrawGui.Slot3_7.LocalScript 
+coroutine.wrap(KSSZQ_fake_script)()
+local function AEPRBI_fake_script() -- YeTechDrawGui.Slot3_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_7)
 
 	local currentcolor = false
@@ -2981,8 +2981,8 @@ local function SJBGC_fake_script() -- YeTechDrawGui.Slot3_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(SJBGC_fake_script)()
-local function UMOE_fake_script() -- YeTechDrawGui.Slot4_7.LocalScript 
+coroutine.wrap(AEPRBI_fake_script)()
+local function TOBYABO_fake_script() -- YeTechDrawGui.Slot4_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_7)
 
 	local currentcolor = false
@@ -2997,8 +2997,8 @@ local function UMOE_fake_script() -- YeTechDrawGui.Slot4_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(UMOE_fake_script)()
-local function MOBQT_fake_script() -- YeTechDrawGui.Slot5_7.LocalScript 
+coroutine.wrap(TOBYABO_fake_script)()
+local function LCYH_fake_script() -- YeTechDrawGui.Slot5_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_7)
 
 	local currentcolor = false
@@ -3013,8 +3013,8 @@ local function MOBQT_fake_script() -- YeTechDrawGui.Slot5_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(MOBQT_fake_script)()
-local function IEANBEQ_fake_script() -- YeTechDrawGui.Slot6_7.LocalScript 
+coroutine.wrap(LCYH_fake_script)()
+local function CKWV_fake_script() -- YeTechDrawGui.Slot6_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_7)
 
 	local currentcolor = false
@@ -3029,8 +3029,8 @@ local function IEANBEQ_fake_script() -- YeTechDrawGui.Slot6_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(IEANBEQ_fake_script)()
-local function JHUT_fake_script() -- YeTechDrawGui.Slot7_7.LocalScript 
+coroutine.wrap(CKWV_fake_script)()
+local function VEASCN_fake_script() -- YeTechDrawGui.Slot7_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_7)
 
 	local currentcolor = false
@@ -3045,8 +3045,8 @@ local function JHUT_fake_script() -- YeTechDrawGui.Slot7_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(JHUT_fake_script)()
-local function IOGIN_fake_script() -- YeTechDrawGui.Slot8_7.LocalScript 
+coroutine.wrap(VEASCN_fake_script)()
+local function PUEY_fake_script() -- YeTechDrawGui.Slot8_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_7)
 
 	local currentcolor = false
@@ -3061,8 +3061,8 @@ local function IOGIN_fake_script() -- YeTechDrawGui.Slot8_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(IOGIN_fake_script)()
-local function KRFM_fake_script() -- YeTechDrawGui.Slot9_7.LocalScript 
+coroutine.wrap(PUEY_fake_script)()
+local function EMMP_fake_script() -- YeTechDrawGui.Slot9_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_7)
 
 	local currentcolor = false
@@ -3077,8 +3077,8 @@ local function KRFM_fake_script() -- YeTechDrawGui.Slot9_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(KRFM_fake_script)()
-local function LHXDU_fake_script() -- YeTechDrawGui.Slot10_7.LocalScript 
+coroutine.wrap(EMMP_fake_script)()
+local function MTOV_fake_script() -- YeTechDrawGui.Slot10_7.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_7)
 
 	local currentcolor = false
@@ -3093,8 +3093,8 @@ local function LHXDU_fake_script() -- YeTechDrawGui.Slot10_7.LocalScript
 		
 	end)
 end
-coroutine.wrap(LHXDU_fake_script)()
-local function BCUUK_fake_script() -- YeTechDrawGui.Slot1_8.LocalScript 
+coroutine.wrap(MTOV_fake_script)()
+local function PUZDH_fake_script() -- YeTechDrawGui.Slot1_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_8)
 
 	local currentcolor = false
@@ -3109,8 +3109,8 @@ local function BCUUK_fake_script() -- YeTechDrawGui.Slot1_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(BCUUK_fake_script)()
-local function QOPPNP_fake_script() -- YeTechDrawGui.Slot2_8.LocalScript 
+coroutine.wrap(PUZDH_fake_script)()
+local function FULHTWM_fake_script() -- YeTechDrawGui.Slot2_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_8)
 
 	local currentcolor = false
@@ -3125,8 +3125,8 @@ local function QOPPNP_fake_script() -- YeTechDrawGui.Slot2_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(QOPPNP_fake_script)()
-local function KQVLJ_fake_script() -- YeTechDrawGui.Slot3_8.LocalScript 
+coroutine.wrap(FULHTWM_fake_script)()
+local function GIERID_fake_script() -- YeTechDrawGui.Slot3_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_8)
 
 	local currentcolor = false
@@ -3141,8 +3141,8 @@ local function KQVLJ_fake_script() -- YeTechDrawGui.Slot3_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(KQVLJ_fake_script)()
-local function HMVA_fake_script() -- YeTechDrawGui.Slot4_8.LocalScript 
+coroutine.wrap(GIERID_fake_script)()
+local function FGABU_fake_script() -- YeTechDrawGui.Slot4_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_8)
 
 	local currentcolor = false
@@ -3157,8 +3157,8 @@ local function HMVA_fake_script() -- YeTechDrawGui.Slot4_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(HMVA_fake_script)()
-local function JOOLQZ_fake_script() -- YeTechDrawGui.Slot5_8.LocalScript 
+coroutine.wrap(FGABU_fake_script)()
+local function POOLMFQ_fake_script() -- YeTechDrawGui.Slot5_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_8)
 
 	local currentcolor = false
@@ -3173,8 +3173,8 @@ local function JOOLQZ_fake_script() -- YeTechDrawGui.Slot5_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(JOOLQZ_fake_script)()
-local function XRGY_fake_script() -- YeTechDrawGui.Slot6_8.LocalScript 
+coroutine.wrap(POOLMFQ_fake_script)()
+local function KOZEXU_fake_script() -- YeTechDrawGui.Slot6_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_8)
 
 	local currentcolor = false
@@ -3189,8 +3189,8 @@ local function XRGY_fake_script() -- YeTechDrawGui.Slot6_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(XRGY_fake_script)()
-local function YWTMHV_fake_script() -- YeTechDrawGui.Slot7_8.LocalScript 
+coroutine.wrap(KOZEXU_fake_script)()
+local function XMTM_fake_script() -- YeTechDrawGui.Slot7_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_8)
 
 	local currentcolor = false
@@ -3205,8 +3205,8 @@ local function YWTMHV_fake_script() -- YeTechDrawGui.Slot7_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(YWTMHV_fake_script)()
-local function SWGERTJ_fake_script() -- YeTechDrawGui.Slot8_8.LocalScript 
+coroutine.wrap(XMTM_fake_script)()
+local function MEOCWT_fake_script() -- YeTechDrawGui.Slot8_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_8)
 
 	local currentcolor = false
@@ -3221,8 +3221,8 @@ local function SWGERTJ_fake_script() -- YeTechDrawGui.Slot8_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(SWGERTJ_fake_script)()
-local function BGBM_fake_script() -- YeTechDrawGui.Slot9_8.LocalScript 
+coroutine.wrap(MEOCWT_fake_script)()
+local function UASLQ_fake_script() -- YeTechDrawGui.Slot9_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_8)
 
 	local currentcolor = false
@@ -3237,8 +3237,8 @@ local function BGBM_fake_script() -- YeTechDrawGui.Slot9_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(BGBM_fake_script)()
-local function XPSNQT_fake_script() -- YeTechDrawGui.Slot10_8.LocalScript 
+coroutine.wrap(UASLQ_fake_script)()
+local function WTZCP_fake_script() -- YeTechDrawGui.Slot10_8.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_8)
 
 	local currentcolor = false
@@ -3253,8 +3253,8 @@ local function XPSNQT_fake_script() -- YeTechDrawGui.Slot10_8.LocalScript
 		
 	end)
 end
-coroutine.wrap(XPSNQT_fake_script)()
-local function WJGCKK_fake_script() -- YeTechDrawGui.Slot1_9.LocalScript 
+coroutine.wrap(WTZCP_fake_script)()
+local function DQQR_fake_script() -- YeTechDrawGui.Slot1_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_9)
 
 	local currentcolor = false
@@ -3269,8 +3269,8 @@ local function WJGCKK_fake_script() -- YeTechDrawGui.Slot1_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(WJGCKK_fake_script)()
-local function MDFSRZZ_fake_script() -- YeTechDrawGui.Slot2_9.LocalScript 
+coroutine.wrap(DQQR_fake_script)()
+local function GKYOXN_fake_script() -- YeTechDrawGui.Slot2_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_9)
 
 	local currentcolor = false
@@ -3285,8 +3285,8 @@ local function MDFSRZZ_fake_script() -- YeTechDrawGui.Slot2_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(MDFSRZZ_fake_script)()
-local function OTZWUY_fake_script() -- YeTechDrawGui.Slot3_9.LocalScript 
+coroutine.wrap(GKYOXN_fake_script)()
+local function AJQLA_fake_script() -- YeTechDrawGui.Slot3_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_9)
 
 	local currentcolor = false
@@ -3301,8 +3301,8 @@ local function OTZWUY_fake_script() -- YeTechDrawGui.Slot3_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(OTZWUY_fake_script)()
-local function HEGCB_fake_script() -- YeTechDrawGui.Slot4_9.LocalScript 
+coroutine.wrap(AJQLA_fake_script)()
+local function CZPIQ_fake_script() -- YeTechDrawGui.Slot4_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_9)
 
 	local currentcolor = false
@@ -3317,8 +3317,8 @@ local function HEGCB_fake_script() -- YeTechDrawGui.Slot4_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(HEGCB_fake_script)()
-local function EHYOFGG_fake_script() -- YeTechDrawGui.Slot5_9.LocalScript 
+coroutine.wrap(CZPIQ_fake_script)()
+local function RSYQUV_fake_script() -- YeTechDrawGui.Slot5_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_9)
 
 	local currentcolor = false
@@ -3333,8 +3333,8 @@ local function EHYOFGG_fake_script() -- YeTechDrawGui.Slot5_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(EHYOFGG_fake_script)()
-local function OHOUPKB_fake_script() -- YeTechDrawGui.Slot6_9.LocalScript 
+coroutine.wrap(RSYQUV_fake_script)()
+local function VMVKO_fake_script() -- YeTechDrawGui.Slot6_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_9)
 
 	local currentcolor = false
@@ -3349,8 +3349,8 @@ local function OHOUPKB_fake_script() -- YeTechDrawGui.Slot6_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(OHOUPKB_fake_script)()
-local function NAWLA_fake_script() -- YeTechDrawGui.Slot7_9.LocalScript 
+coroutine.wrap(VMVKO_fake_script)()
+local function KYYF_fake_script() -- YeTechDrawGui.Slot7_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_9)
 
 	local currentcolor = false
@@ -3365,8 +3365,8 @@ local function NAWLA_fake_script() -- YeTechDrawGui.Slot7_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(NAWLA_fake_script)()
-local function UDMQUNY_fake_script() -- YeTechDrawGui.Slot8_9.LocalScript 
+coroutine.wrap(KYYF_fake_script)()
+local function HWHL_fake_script() -- YeTechDrawGui.Slot8_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_9)
 
 	local currentcolor = false
@@ -3381,8 +3381,8 @@ local function UDMQUNY_fake_script() -- YeTechDrawGui.Slot8_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(UDMQUNY_fake_script)()
-local function MIYQUJ_fake_script() -- YeTechDrawGui.Slot9_9.LocalScript 
+coroutine.wrap(HWHL_fake_script)()
+local function GIEOE_fake_script() -- YeTechDrawGui.Slot9_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_9)
 
 	local currentcolor = false
@@ -3397,8 +3397,8 @@ local function MIYQUJ_fake_script() -- YeTechDrawGui.Slot9_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(MIYQUJ_fake_script)()
-local function FZPRFVX_fake_script() -- YeTechDrawGui.Slot10_9.LocalScript 
+coroutine.wrap(GIEOE_fake_script)()
+local function MYMQ_fake_script() -- YeTechDrawGui.Slot10_9.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_9)
 
 	local currentcolor = false
@@ -3413,8 +3413,8 @@ local function FZPRFVX_fake_script() -- YeTechDrawGui.Slot10_9.LocalScript
 		
 	end)
 end
-coroutine.wrap(FZPRFVX_fake_script)()
-local function HGVBA_fake_script() -- YeTechDrawGui.Slot1_10.LocalScript 
+coroutine.wrap(MYMQ_fake_script)()
+local function RBGBYV_fake_script() -- YeTechDrawGui.Slot1_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_10)
 
 	local currentcolor = false
@@ -3429,8 +3429,8 @@ local function HGVBA_fake_script() -- YeTechDrawGui.Slot1_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(HGVBA_fake_script)()
-local function MGMMOGJ_fake_script() -- YeTechDrawGui.Slot2_10.LocalScript 
+coroutine.wrap(RBGBYV_fake_script)()
+local function RMZALGH_fake_script() -- YeTechDrawGui.Slot2_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_10)
 
 	local currentcolor = false
@@ -3445,8 +3445,8 @@ local function MGMMOGJ_fake_script() -- YeTechDrawGui.Slot2_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(MGMMOGJ_fake_script)()
-local function EUWBE_fake_script() -- YeTechDrawGui.Slot3_10.LocalScript 
+coroutine.wrap(RMZALGH_fake_script)()
+local function FAOOFE_fake_script() -- YeTechDrawGui.Slot3_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_10)
 
 	local currentcolor = false
@@ -3461,8 +3461,8 @@ local function EUWBE_fake_script() -- YeTechDrawGui.Slot3_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(EUWBE_fake_script)()
-local function XAEI_fake_script() -- YeTechDrawGui.Slot4_10.LocalScript 
+coroutine.wrap(FAOOFE_fake_script)()
+local function LEFQD_fake_script() -- YeTechDrawGui.Slot4_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_10)
 
 	local currentcolor = false
@@ -3477,8 +3477,8 @@ local function XAEI_fake_script() -- YeTechDrawGui.Slot4_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(XAEI_fake_script)()
-local function MQTTM_fake_script() -- YeTechDrawGui.Slot5_10.LocalScript 
+coroutine.wrap(LEFQD_fake_script)()
+local function DLGFB_fake_script() -- YeTechDrawGui.Slot5_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_10)
 
 	local currentcolor = false
@@ -3493,8 +3493,8 @@ local function MQTTM_fake_script() -- YeTechDrawGui.Slot5_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(MQTTM_fake_script)()
-local function DPWH_fake_script() -- YeTechDrawGui.Slot6_10.LocalScript 
+coroutine.wrap(DLGFB_fake_script)()
+local function DPWKUAL_fake_script() -- YeTechDrawGui.Slot6_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_10)
 
 	local currentcolor = false
@@ -3509,8 +3509,8 @@ local function DPWH_fake_script() -- YeTechDrawGui.Slot6_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(DPWH_fake_script)()
-local function ISPQP_fake_script() -- YeTechDrawGui.Slot7_10.LocalScript 
+coroutine.wrap(DPWKUAL_fake_script)()
+local function EPZTLBC_fake_script() -- YeTechDrawGui.Slot7_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_10)
 
 	local currentcolor = false
@@ -3525,8 +3525,8 @@ local function ISPQP_fake_script() -- YeTechDrawGui.Slot7_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(ISPQP_fake_script)()
-local function MOSHJJ_fake_script() -- YeTechDrawGui.Slot8_10.LocalScript 
+coroutine.wrap(EPZTLBC_fake_script)()
+local function AYKVB_fake_script() -- YeTechDrawGui.Slot8_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_10)
 
 	local currentcolor = false
@@ -3541,8 +3541,8 @@ local function MOSHJJ_fake_script() -- YeTechDrawGui.Slot8_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(MOSHJJ_fake_script)()
-local function MBCOS_fake_script() -- YeTechDrawGui.Slot9_10.LocalScript 
+coroutine.wrap(AYKVB_fake_script)()
+local function WKQIHRG_fake_script() -- YeTechDrawGui.Slot9_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_10)
 
 	local currentcolor = false
@@ -3557,8 +3557,8 @@ local function MBCOS_fake_script() -- YeTechDrawGui.Slot9_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(MBCOS_fake_script)()
-local function ZOXXTH_fake_script() -- YeTechDrawGui.Slot10_10.LocalScript 
+coroutine.wrap(WKQIHRG_fake_script)()
+local function VXSKHHH_fake_script() -- YeTechDrawGui.Slot10_10.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_10)
 
 	local currentcolor = false
@@ -3573,11 +3573,11 @@ local function ZOXXTH_fake_script() -- YeTechDrawGui.Slot10_10.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZOXXTH_fake_script)()
-local function LZUK_fake_script() -- YeTechDrawGui.YeTechDrawGui.LocalScript 
+coroutine.wrap(VXSKHHH_fake_script)()
+local function OOMCDP_fake_script() -- YeTechDrawGui.YeTechDrawGui.LocalScript 
 	local script = Instance.new('LocalScript', YeTechDrawGui.YeTechDrawGui)
 
 	script.Parent.Frame.Active = true
 	script.Parent.Frame.Draggable = true
 end
-coroutine.wrap(LZUK_fake_script)()
+coroutine.wrap(OOMCDP_fake_script)()
