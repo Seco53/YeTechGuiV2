@@ -238,7 +238,7 @@ local YeTechDrawGui = {
 --Properties:
 
 YeTechDrawGui.YeTechDrawGui.Name = "YeTechDrawGui"
-YeTechDrawGui.YeTechDrawGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+YeTechDrawGui.YeTechDrawGui.Parent = game.CoreGui
 YeTechDrawGui.YeTechDrawGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 YeTechDrawGui.Frame.Parent = YeTechDrawGui.YeTechDrawGui
