@@ -3,3581 +3,5038 @@
 
 -- Instances:
 
-local YeTechDrawGui = {
-	YeTechDrawGui = Instance.new("ScreenGui"),
-	Frame = Instance.new("Frame"),
-	TextButton = Instance.new("TextButton"),
-	UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint"),
-	TextLabel = Instance.new("TextLabel"),
-	UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint"),
-	Frame_2 = Instance.new("Frame"),
-	row1 = Instance.new("Frame"),
-	Slot1 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint"),
-	Slot2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint"),
-	Slot3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint"),
-	Slot4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint"),
-	Slot5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint"),
-	Slot6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint"),
-	Slot7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint"),
-	Slot8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint"),
-	Slot9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint"),
-	Slot10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint"),
-	row2 = Instance.new("Frame"),
-	Slot1_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_2 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint"),
-	row3 = Instance.new("Frame"),
-	Slot1_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_3 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_34 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_35 = Instance.new("UIAspectRatioConstraint"),
-	row4 = Instance.new("Frame"),
-	Slot1_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_36 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_37 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_38 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_39 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_40 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_41 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_42 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_43 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_44 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_4 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_45 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_46 = Instance.new("UIAspectRatioConstraint"),
-	row5 = Instance.new("Frame"),
-	Slot1_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_47 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_48 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_49 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_50 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_51 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_52 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_53 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_54 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_55 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_5 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_56 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_57 = Instance.new("UIAspectRatioConstraint"),
-	row6 = Instance.new("Frame"),
-	Slot1_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_58 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_59 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_60 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_61 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_62 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_63 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_64 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_65 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_66 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_6 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_67 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_68 = Instance.new("UIAspectRatioConstraint"),
-	row7 = Instance.new("Frame"),
-	Slot1_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_69 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_70 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_71 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_72 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_73 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_74 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_75 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_76 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_77 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_7 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_78 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_79 = Instance.new("UIAspectRatioConstraint"),
-	row8 = Instance.new("Frame"),
-	Slot1_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_80 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_81 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_82 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_83 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_84 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_85 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_86 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_87 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_88 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_8 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_89 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_90 = Instance.new("UIAspectRatioConstraint"),
-	row9 = Instance.new("Frame"),
-	Slot1_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_91 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_92 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_93 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_94 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_95 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_96 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_97 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_98 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_99 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_9 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_100 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_101 = Instance.new("UIAspectRatioConstraint"),
-	row10 = Instance.new("Frame"),
-	Slot1_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_102 = Instance.new("UIAspectRatioConstraint"),
-	Slot2_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_103 = Instance.new("UIAspectRatioConstraint"),
-	Slot3_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_104 = Instance.new("UIAspectRatioConstraint"),
-	Slot4_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_105 = Instance.new("UIAspectRatioConstraint"),
-	Slot5_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_106 = Instance.new("UIAspectRatioConstraint"),
-	Slot6_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_107 = Instance.new("UIAspectRatioConstraint"),
-	Slot7_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_108 = Instance.new("UIAspectRatioConstraint"),
-	Slot8_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_109 = Instance.new("UIAspectRatioConstraint"),
-	Slot9_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_110 = Instance.new("UIAspectRatioConstraint"),
-	Slot10_10 = Instance.new("TextButton"),
-	UIAspectRatioConstraint_111 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_112 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_113 = Instance.new("UIAspectRatioConstraint"),
-	UIAspectRatioConstraint_114 = Instance.new("UIAspectRatioConstraint"),
-}
+local YeTechDrawGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Frame_2 = Instance.new("Frame")
+local row1 = Instance.new("Frame")
+local Slot1 = Instance.new("TextButton")
+local Slot2 = Instance.new("TextButton")
+local Slot3 = Instance.new("TextButton")
+local Slot4 = Instance.new("TextButton")
+local Slot5 = Instance.new("TextButton")
+local Slot6 = Instance.new("TextButton")
+local Slot7 = Instance.new("TextButton")
+local Slot8 = Instance.new("TextButton")
+local Slot9 = Instance.new("TextButton")
+local Slot10 = Instance.new("TextButton")
+local Slot11 = Instance.new("TextButton")
+local Slot12 = Instance.new("TextButton")
+local row2 = Instance.new("Frame")
+local Slot1_2 = Instance.new("TextButton")
+local Slot2_2 = Instance.new("TextButton")
+local Slot3_2 = Instance.new("TextButton")
+local Slot4_2 = Instance.new("TextButton")
+local Slot5_2 = Instance.new("TextButton")
+local Slot6_2 = Instance.new("TextButton")
+local Slot7_2 = Instance.new("TextButton")
+local Slot8_2 = Instance.new("TextButton")
+local Slot9_2 = Instance.new("TextButton")
+local Slot10_2 = Instance.new("TextButton")
+local Slot11_2 = Instance.new("TextButton")
+local Slot12_2 = Instance.new("TextButton")
+local row3 = Instance.new("Frame")
+local Slot1_3 = Instance.new("TextButton")
+local Slot2_3 = Instance.new("TextButton")
+local Slot3_3 = Instance.new("TextButton")
+local Slot4_3 = Instance.new("TextButton")
+local Slot5_3 = Instance.new("TextButton")
+local Slot6_3 = Instance.new("TextButton")
+local Slot7_3 = Instance.new("TextButton")
+local Slot8_3 = Instance.new("TextButton")
+local Slot9_3 = Instance.new("TextButton")
+local Slot10_3 = Instance.new("TextButton")
+local Slot11_3 = Instance.new("TextButton")
+local Slot12_3 = Instance.new("TextButton")
+local row4 = Instance.new("Frame")
+local Slot1_4 = Instance.new("TextButton")
+local Slot2_4 = Instance.new("TextButton")
+local Slot3_4 = Instance.new("TextButton")
+local Slot4_4 = Instance.new("TextButton")
+local Slot5_4 = Instance.new("TextButton")
+local Slot6_4 = Instance.new("TextButton")
+local Slot7_4 = Instance.new("TextButton")
+local Slot8_4 = Instance.new("TextButton")
+local Slot9_4 = Instance.new("TextButton")
+local Slot10_4 = Instance.new("TextButton")
+local Slot11_4 = Instance.new("TextButton")
+local Slot12_4 = Instance.new("TextButton")
+local row5 = Instance.new("Frame")
+local Slot1_5 = Instance.new("TextButton")
+local Slot2_5 = Instance.new("TextButton")
+local Slot3_5 = Instance.new("TextButton")
+local Slot4_5 = Instance.new("TextButton")
+local Slot5_5 = Instance.new("TextButton")
+local Slot6_5 = Instance.new("TextButton")
+local Slot7_5 = Instance.new("TextButton")
+local Slot8_5 = Instance.new("TextButton")
+local Slot9_5 = Instance.new("TextButton")
+local Slot10_5 = Instance.new("TextButton")
+local Slot11_5 = Instance.new("TextButton")
+local Slot12_5 = Instance.new("TextButton")
+local row6 = Instance.new("Frame")
+local Slot1_6 = Instance.new("TextButton")
+local Slot2_6 = Instance.new("TextButton")
+local Slot3_6 = Instance.new("TextButton")
+local Slot4_6 = Instance.new("TextButton")
+local Slot5_6 = Instance.new("TextButton")
+local Slot6_6 = Instance.new("TextButton")
+local Slot7_6 = Instance.new("TextButton")
+local Slot8_6 = Instance.new("TextButton")
+local Slot9_6 = Instance.new("TextButton")
+local Slot10_6 = Instance.new("TextButton")
+local Slot11_6 = Instance.new("TextButton")
+local Slot12_6 = Instance.new("TextButton")
+local row7 = Instance.new("Frame")
+local Slot1_7 = Instance.new("TextButton")
+local Slot2_7 = Instance.new("TextButton")
+local Slot3_7 = Instance.new("TextButton")
+local Slot4_7 = Instance.new("TextButton")
+local Slot5_7 = Instance.new("TextButton")
+local Slot6_7 = Instance.new("TextButton")
+local Slot7_7 = Instance.new("TextButton")
+local Slot8_7 = Instance.new("TextButton")
+local Slot9_7 = Instance.new("TextButton")
+local Slot10_7 = Instance.new("TextButton")
+local Slot11_7 = Instance.new("TextButton")
+local Slot12_7 = Instance.new("TextButton")
+local row8 = Instance.new("Frame")
+local Slot1_8 = Instance.new("TextButton")
+local Slot2_8 = Instance.new("TextButton")
+local Slot3_8 = Instance.new("TextButton")
+local Slot4_8 = Instance.new("TextButton")
+local Slot5_8 = Instance.new("TextButton")
+local Slot6_8 = Instance.new("TextButton")
+local Slot7_8 = Instance.new("TextButton")
+local Slot8_8 = Instance.new("TextButton")
+local Slot9_8 = Instance.new("TextButton")
+local Slot10_8 = Instance.new("TextButton")
+local Slot11_8 = Instance.new("TextButton")
+local Slot12_8 = Instance.new("TextButton")
+local row9 = Instance.new("Frame")
+local Slot1_9 = Instance.new("TextButton")
+local Slot2_9 = Instance.new("TextButton")
+local Slot3_9 = Instance.new("TextButton")
+local Slot4_9 = Instance.new("TextButton")
+local Slot5_9 = Instance.new("TextButton")
+local Slot6_9 = Instance.new("TextButton")
+local Slot7_9 = Instance.new("TextButton")
+local Slot8_9 = Instance.new("TextButton")
+local Slot9_9 = Instance.new("TextButton")
+local Slot10_9 = Instance.new("TextButton")
+local Slot11_9 = Instance.new("TextButton")
+local Slot12_9 = Instance.new("TextButton")
+local row10 = Instance.new("Frame")
+local Slot1_10 = Instance.new("TextButton")
+local Slot2_10 = Instance.new("TextButton")
+local Slot3_10 = Instance.new("TextButton")
+local Slot4_10 = Instance.new("TextButton")
+local Slot5_10 = Instance.new("TextButton")
+local Slot6_10 = Instance.new("TextButton")
+local Slot7_10 = Instance.new("TextButton")
+local Slot8_10 = Instance.new("TextButton")
+local Slot9_10 = Instance.new("TextButton")
+local Slot10_10 = Instance.new("TextButton")
+local Slot11_10 = Instance.new("TextButton")
+local Slot12_10 = Instance.new("TextButton")
+local row11 = Instance.new("Frame")
+local Slot1_11 = Instance.new("TextButton")
+local Slot2_11 = Instance.new("TextButton")
+local Slot3_11 = Instance.new("TextButton")
+local Slot4_11 = Instance.new("TextButton")
+local Slot5_11 = Instance.new("TextButton")
+local Slot6_11 = Instance.new("TextButton")
+local Slot7_11 = Instance.new("TextButton")
+local Slot8_11 = Instance.new("TextButton")
+local Slot9_11 = Instance.new("TextButton")
+local Slot10_11 = Instance.new("TextButton")
+local Slot11_11 = Instance.new("TextButton")
+local Slot12_11 = Instance.new("TextButton")
+local row12 = Instance.new("Frame")
+local Slot1_12 = Instance.new("TextButton")
+local Slot2_12 = Instance.new("TextButton")
+local Slot3_12 = Instance.new("TextButton")
+local Slot4_12 = Instance.new("TextButton")
+local Slot5_12 = Instance.new("TextButton")
+local Slot6_12 = Instance.new("TextButton")
+local Slot7_12 = Instance.new("TextButton")
+local Slot8_12 = Instance.new("TextButton")
+local Slot9_12 = Instance.new("TextButton")
+local Slot10_12 = Instance.new("TextButton")
+local Slot11_12 = Instance.new("TextButton")
+local Slot12_12 = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
-YeTechDrawGui.YeTechDrawGui.Name = "YeTechDrawGui"
-YeTechDrawGui.YeTechDrawGui.Parent = game.CoreGui
-YeTechDrawGui.YeTechDrawGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-YeTechDrawGui.Frame.Parent = YeTechDrawGui.YeTechDrawGui
-YeTechDrawGui.Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Frame.BorderColor3 = Color3.fromRGB(255, 247, 0)
-YeTechDrawGui.Frame.BorderSizePixel = 2
-YeTechDrawGui.Frame.Position = UDim2.new(0.321252137, 0, 0.137285486, 0)
-YeTechDrawGui.Frame.Size = UDim2.new(0.356877357, 0, 0.862714529, 0)
-
-YeTechDrawGui.TextButton.Parent = YeTechDrawGui.Frame
-YeTechDrawGui.TextButton.BackgroundColor3 = Color3.fromRGB(42, 39, 0)
-YeTechDrawGui.TextButton.BorderColor3 = Color3.fromRGB(255, 247, 0)
-YeTechDrawGui.TextButton.BorderSizePixel = 2
-YeTechDrawGui.TextButton.Position = UDim2.new(0.236664429, 0, 0.890883923, 0)
-YeTechDrawGui.TextButton.Size = UDim2.new(0.520833313, 0, 0.0954198465, 0)
-YeTechDrawGui.TextButton.Font = Enum.Font.SourceSans
-YeTechDrawGui.TextButton.Text = "Chat"
-YeTechDrawGui.TextButton.TextColor3 = Color3.fromRGB(255, 247, 0)
-YeTechDrawGui.TextButton.TextScaled = true
-YeTechDrawGui.TextButton.TextSize = 14.000
-YeTechDrawGui.TextButton.TextWrapped = true
-
-YeTechDrawGui.UIAspectRatioConstraint.Parent = YeTechDrawGui.TextButton
-YeTechDrawGui.UIAspectRatioConstraint.AspectRatio = 4.156
-
-YeTechDrawGui.TextLabel.Parent = YeTechDrawGui.Frame
-YeTechDrawGui.TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.TextLabel.BorderColor3 = Color3.fromRGB(255, 247, 0)
-YeTechDrawGui.TextLabel.BorderSizePixel = 2
-YeTechDrawGui.TextLabel.Position = UDim2.new(-0.00265852292, 0, 0, 0)
-YeTechDrawGui.TextLabel.Size = UDim2.new(1, 0, 0.110687025, 0)
-YeTechDrawGui.TextLabel.Font = Enum.Font.SourceSans
-YeTechDrawGui.TextLabel.Text = "YeTech Chat Drawer FE"
-YeTechDrawGui.TextLabel.TextColor3 = Color3.fromRGB(255, 247, 0)
-YeTechDrawGui.TextLabel.TextScaled = true
-YeTechDrawGui.TextLabel.TextSize = 14.000
-YeTechDrawGui.TextLabel.TextWrapped = true
-
-YeTechDrawGui.UIAspectRatioConstraint_2.Parent = YeTechDrawGui.TextLabel
-YeTechDrawGui.UIAspectRatioConstraint_2.AspectRatio = 6.879
-
-YeTechDrawGui.Frame_2.Parent = YeTechDrawGui.Frame
-YeTechDrawGui.Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Frame_2.BorderColor3 = Color3.fromRGB(255, 247, 0)
-YeTechDrawGui.Frame_2.BorderSizePixel = 2
-YeTechDrawGui.Frame_2.Position = UDim2.new(0.0808256492, 0, 0.171062157, 0)
-YeTechDrawGui.Frame_2.Size = UDim2.new(0.864583313, 0, 0.582061052, 0)
-
-YeTechDrawGui.row1.Name = "row1"
-YeTechDrawGui.row1.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row1.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row1.BorderSizePixel = 0
-YeTechDrawGui.row1.Position = UDim2.new(1.90140668e-07, 0, 0, 0)
-YeTechDrawGui.row1.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1.Name = "Slot1"
-YeTechDrawGui.Slot1.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1.BorderSizePixel = 2
-YeTechDrawGui.Slot1.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1.Text = ""
-YeTechDrawGui.Slot1.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_3.Parent = YeTechDrawGui.Slot1
-YeTechDrawGui.UIAspectRatioConstraint_3.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2.Name = "Slot2"
-YeTechDrawGui.Slot2.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2.BorderSizePixel = 2
-YeTechDrawGui.Slot2.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2.Text = ""
-YeTechDrawGui.Slot2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_4.Parent = YeTechDrawGui.Slot2
-YeTechDrawGui.UIAspectRatioConstraint_4.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3.Name = "Slot3"
-YeTechDrawGui.Slot3.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3.BorderSizePixel = 2
-YeTechDrawGui.Slot3.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3.Text = ""
-YeTechDrawGui.Slot3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_5.Parent = YeTechDrawGui.Slot3
-YeTechDrawGui.UIAspectRatioConstraint_5.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4.Name = "Slot4"
-YeTechDrawGui.Slot4.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4.BorderSizePixel = 2
-YeTechDrawGui.Slot4.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4.Text = ""
-YeTechDrawGui.Slot4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_6.Parent = YeTechDrawGui.Slot4
-YeTechDrawGui.UIAspectRatioConstraint_6.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5.Name = "Slot5"
-YeTechDrawGui.Slot5.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5.BorderSizePixel = 2
-YeTechDrawGui.Slot5.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5.Text = ""
-YeTechDrawGui.Slot5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_7.Parent = YeTechDrawGui.Slot5
-YeTechDrawGui.UIAspectRatioConstraint_7.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6.Name = "Slot6"
-YeTechDrawGui.Slot6.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6.BorderSizePixel = 2
-YeTechDrawGui.Slot6.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6.Text = ""
-YeTechDrawGui.Slot6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_8.Parent = YeTechDrawGui.Slot6
-YeTechDrawGui.UIAspectRatioConstraint_8.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7.Name = "Slot7"
-YeTechDrawGui.Slot7.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7.BorderSizePixel = 2
-YeTechDrawGui.Slot7.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7.Text = ""
-YeTechDrawGui.Slot7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_9.Parent = YeTechDrawGui.Slot7
-YeTechDrawGui.UIAspectRatioConstraint_9.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8.Name = "Slot8"
-YeTechDrawGui.Slot8.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8.BorderSizePixel = 2
-YeTechDrawGui.Slot8.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8.Text = ""
-YeTechDrawGui.Slot8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_10.Parent = YeTechDrawGui.Slot8
-YeTechDrawGui.UIAspectRatioConstraint_10.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9.Name = "Slot9"
-YeTechDrawGui.Slot9.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9.BorderSizePixel = 2
-YeTechDrawGui.Slot9.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9.Text = ""
-YeTechDrawGui.Slot9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_11.Parent = YeTechDrawGui.Slot9
-YeTechDrawGui.UIAspectRatioConstraint_11.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10.Name = "Slot10"
-YeTechDrawGui.Slot10.Parent = YeTechDrawGui.row1
-YeTechDrawGui.Slot10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10.BorderSizePixel = 2
-YeTechDrawGui.Slot10.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10.Text = ""
-YeTechDrawGui.Slot10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_12.Parent = YeTechDrawGui.Slot10
-YeTechDrawGui.UIAspectRatioConstraint_12.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_13.Parent = YeTechDrawGui.row1
-YeTechDrawGui.UIAspectRatioConstraint_13.AspectRatio = 10.075
-
-YeTechDrawGui.row2.Name = "row2"
-YeTechDrawGui.row2.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row2.BorderSizePixel = 0
-YeTechDrawGui.row2.Position = UDim2.new(1.90140668e-07, 0, 0.0983606577, 0)
-YeTechDrawGui.row2.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_2.Name = "Slot1"
-YeTechDrawGui.Slot1_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_2.BorderSizePixel = 2
-YeTechDrawGui.Slot1_2.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_2.Text = ""
-YeTechDrawGui.Slot1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_14.Parent = YeTechDrawGui.Slot1_2
-YeTechDrawGui.UIAspectRatioConstraint_14.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_2.Name = "Slot2"
-YeTechDrawGui.Slot2_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_2.BorderSizePixel = 2
-YeTechDrawGui.Slot2_2.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_2.Text = ""
-YeTechDrawGui.Slot2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_15.Parent = YeTechDrawGui.Slot2_2
-YeTechDrawGui.UIAspectRatioConstraint_15.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_2.Name = "Slot3"
-YeTechDrawGui.Slot3_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_2.BorderSizePixel = 2
-YeTechDrawGui.Slot3_2.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_2.Text = ""
-YeTechDrawGui.Slot3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_16.Parent = YeTechDrawGui.Slot3_2
-YeTechDrawGui.UIAspectRatioConstraint_16.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_2.Name = "Slot4"
-YeTechDrawGui.Slot4_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_2.BorderSizePixel = 2
-YeTechDrawGui.Slot4_2.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_2.Text = ""
-YeTechDrawGui.Slot4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_17.Parent = YeTechDrawGui.Slot4_2
-YeTechDrawGui.UIAspectRatioConstraint_17.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_2.Name = "Slot5"
-YeTechDrawGui.Slot5_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot5_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_2.BorderSizePixel = 2
-YeTechDrawGui.Slot5_2.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_2.Text = ""
-YeTechDrawGui.Slot5_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_18.Parent = YeTechDrawGui.Slot5_2
-YeTechDrawGui.UIAspectRatioConstraint_18.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_2.Name = "Slot6"
-YeTechDrawGui.Slot6_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot6_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_2.BorderSizePixel = 2
-YeTechDrawGui.Slot6_2.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_2.Text = ""
-YeTechDrawGui.Slot6_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_19.Parent = YeTechDrawGui.Slot6_2
-YeTechDrawGui.UIAspectRatioConstraint_19.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_2.Name = "Slot7"
-YeTechDrawGui.Slot7_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot7_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_2.BorderSizePixel = 2
-YeTechDrawGui.Slot7_2.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_2.Text = ""
-YeTechDrawGui.Slot7_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_20.Parent = YeTechDrawGui.Slot7_2
-YeTechDrawGui.UIAspectRatioConstraint_20.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_2.Name = "Slot8"
-YeTechDrawGui.Slot8_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot8_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_2.BorderSizePixel = 2
-YeTechDrawGui.Slot8_2.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_2.Text = ""
-YeTechDrawGui.Slot8_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_21.Parent = YeTechDrawGui.Slot8_2
-YeTechDrawGui.UIAspectRatioConstraint_21.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_2.Name = "Slot9"
-YeTechDrawGui.Slot9_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot9_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_2.BorderSizePixel = 2
-YeTechDrawGui.Slot9_2.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_2.Text = ""
-YeTechDrawGui.Slot9_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_22.Parent = YeTechDrawGui.Slot9_2
-YeTechDrawGui.UIAspectRatioConstraint_22.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_2.Name = "Slot10"
-YeTechDrawGui.Slot10_2.Parent = YeTechDrawGui.row2
-YeTechDrawGui.Slot10_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_2.BorderSizePixel = 2
-YeTechDrawGui.Slot10_2.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_2.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_2.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_2.Text = ""
-YeTechDrawGui.Slot10_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_2.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_23.Parent = YeTechDrawGui.Slot10_2
-YeTechDrawGui.UIAspectRatioConstraint_23.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_24.Parent = YeTechDrawGui.row2
-YeTechDrawGui.UIAspectRatioConstraint_24.AspectRatio = 10.075
-
-YeTechDrawGui.row3.Name = "row3"
-YeTechDrawGui.row3.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row3.BorderSizePixel = 0
-YeTechDrawGui.row3.Position = UDim2.new(1.90140668e-07, 0, 0.196721315, 0)
-YeTechDrawGui.row3.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_3.Name = "Slot1"
-YeTechDrawGui.Slot1_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_3.BorderSizePixel = 2
-YeTechDrawGui.Slot1_3.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_3.Text = ""
-YeTechDrawGui.Slot1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_25.Parent = YeTechDrawGui.Slot1_3
-YeTechDrawGui.UIAspectRatioConstraint_25.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_3.Name = "Slot2"
-YeTechDrawGui.Slot2_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_3.BorderSizePixel = 2
-YeTechDrawGui.Slot2_3.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_3.Text = ""
-YeTechDrawGui.Slot2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_26.Parent = YeTechDrawGui.Slot2_3
-YeTechDrawGui.UIAspectRatioConstraint_26.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_3.Name = "Slot3"
-YeTechDrawGui.Slot3_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_3.BorderSizePixel = 2
-YeTechDrawGui.Slot3_3.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_3.Text = ""
-YeTechDrawGui.Slot3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_27.Parent = YeTechDrawGui.Slot3_3
-YeTechDrawGui.UIAspectRatioConstraint_27.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_3.Name = "Slot4"
-YeTechDrawGui.Slot4_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_3.BorderSizePixel = 2
-YeTechDrawGui.Slot4_3.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_3.Text = ""
-YeTechDrawGui.Slot4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_28.Parent = YeTechDrawGui.Slot4_3
-YeTechDrawGui.UIAspectRatioConstraint_28.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_3.Name = "Slot5"
-YeTechDrawGui.Slot5_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot5_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_3.BorderSizePixel = 2
-YeTechDrawGui.Slot5_3.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_3.Text = ""
-YeTechDrawGui.Slot5_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_29.Parent = YeTechDrawGui.Slot5_3
-YeTechDrawGui.UIAspectRatioConstraint_29.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_3.Name = "Slot6"
-YeTechDrawGui.Slot6_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot6_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_3.BorderSizePixel = 2
-YeTechDrawGui.Slot6_3.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_3.Text = ""
-YeTechDrawGui.Slot6_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_30.Parent = YeTechDrawGui.Slot6_3
-YeTechDrawGui.UIAspectRatioConstraint_30.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_3.Name = "Slot7"
-YeTechDrawGui.Slot7_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot7_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_3.BorderSizePixel = 2
-YeTechDrawGui.Slot7_3.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_3.Text = ""
-YeTechDrawGui.Slot7_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_31.Parent = YeTechDrawGui.Slot7_3
-YeTechDrawGui.UIAspectRatioConstraint_31.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_3.Name = "Slot8"
-YeTechDrawGui.Slot8_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot8_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_3.BorderSizePixel = 2
-YeTechDrawGui.Slot8_3.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_3.Text = ""
-YeTechDrawGui.Slot8_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_32.Parent = YeTechDrawGui.Slot8_3
-YeTechDrawGui.UIAspectRatioConstraint_32.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_3.Name = "Slot9"
-YeTechDrawGui.Slot9_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot9_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_3.BorderSizePixel = 2
-YeTechDrawGui.Slot9_3.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_3.Text = ""
-YeTechDrawGui.Slot9_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_33.Parent = YeTechDrawGui.Slot9_3
-YeTechDrawGui.UIAspectRatioConstraint_33.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_3.Name = "Slot10"
-YeTechDrawGui.Slot10_3.Parent = YeTechDrawGui.row3
-YeTechDrawGui.Slot10_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_3.BorderSizePixel = 2
-YeTechDrawGui.Slot10_3.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_3.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_3.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_3.Text = ""
-YeTechDrawGui.Slot10_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_3.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_34.Parent = YeTechDrawGui.Slot10_3
-YeTechDrawGui.UIAspectRatioConstraint_34.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_35.Parent = YeTechDrawGui.row3
-YeTechDrawGui.UIAspectRatioConstraint_35.AspectRatio = 10.075
-
-YeTechDrawGui.row4.Name = "row4"
-YeTechDrawGui.row4.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row4.BorderSizePixel = 0
-YeTechDrawGui.row4.Position = UDim2.new(1.90140668e-07, 0, 0.295081973, 0)
-YeTechDrawGui.row4.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_4.Name = "Slot1"
-YeTechDrawGui.Slot1_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_4.BorderSizePixel = 2
-YeTechDrawGui.Slot1_4.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_4.Text = ""
-YeTechDrawGui.Slot1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_36.Parent = YeTechDrawGui.Slot1_4
-YeTechDrawGui.UIAspectRatioConstraint_36.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_4.Name = "Slot2"
-YeTechDrawGui.Slot2_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_4.BorderSizePixel = 2
-YeTechDrawGui.Slot2_4.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_4.Text = ""
-YeTechDrawGui.Slot2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_37.Parent = YeTechDrawGui.Slot2_4
-YeTechDrawGui.UIAspectRatioConstraint_37.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_4.Name = "Slot3"
-YeTechDrawGui.Slot3_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_4.BorderSizePixel = 2
-YeTechDrawGui.Slot3_4.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_4.Text = ""
-YeTechDrawGui.Slot3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_38.Parent = YeTechDrawGui.Slot3_4
-YeTechDrawGui.UIAspectRatioConstraint_38.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_4.Name = "Slot4"
-YeTechDrawGui.Slot4_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_4.BorderSizePixel = 2
-YeTechDrawGui.Slot4_4.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_4.Text = ""
-YeTechDrawGui.Slot4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_39.Parent = YeTechDrawGui.Slot4_4
-YeTechDrawGui.UIAspectRatioConstraint_39.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_4.Name = "Slot5"
-YeTechDrawGui.Slot5_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot5_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_4.BorderSizePixel = 2
-YeTechDrawGui.Slot5_4.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_4.Text = ""
-YeTechDrawGui.Slot5_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_40.Parent = YeTechDrawGui.Slot5_4
-YeTechDrawGui.UIAspectRatioConstraint_40.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_4.Name = "Slot6"
-YeTechDrawGui.Slot6_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot6_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_4.BorderSizePixel = 2
-YeTechDrawGui.Slot6_4.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_4.Text = ""
-YeTechDrawGui.Slot6_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_41.Parent = YeTechDrawGui.Slot6_4
-YeTechDrawGui.UIAspectRatioConstraint_41.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_4.Name = "Slot7"
-YeTechDrawGui.Slot7_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot7_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_4.BorderSizePixel = 2
-YeTechDrawGui.Slot7_4.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_4.Text = ""
-YeTechDrawGui.Slot7_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_42.Parent = YeTechDrawGui.Slot7_4
-YeTechDrawGui.UIAspectRatioConstraint_42.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_4.Name = "Slot8"
-YeTechDrawGui.Slot8_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot8_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_4.BorderSizePixel = 2
-YeTechDrawGui.Slot8_4.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_4.Text = ""
-YeTechDrawGui.Slot8_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_43.Parent = YeTechDrawGui.Slot8_4
-YeTechDrawGui.UIAspectRatioConstraint_43.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_4.Name = "Slot9"
-YeTechDrawGui.Slot9_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot9_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_4.BorderSizePixel = 2
-YeTechDrawGui.Slot9_4.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_4.Text = ""
-YeTechDrawGui.Slot9_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_44.Parent = YeTechDrawGui.Slot9_4
-YeTechDrawGui.UIAspectRatioConstraint_44.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_4.Name = "Slot10"
-YeTechDrawGui.Slot10_4.Parent = YeTechDrawGui.row4
-YeTechDrawGui.Slot10_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_4.BorderSizePixel = 2
-YeTechDrawGui.Slot10_4.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_4.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_4.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_4.Text = ""
-YeTechDrawGui.Slot10_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_4.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_45.Parent = YeTechDrawGui.Slot10_4
-YeTechDrawGui.UIAspectRatioConstraint_45.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_46.Parent = YeTechDrawGui.row4
-YeTechDrawGui.UIAspectRatioConstraint_46.AspectRatio = 10.075
-
-YeTechDrawGui.row5.Name = "row5"
-YeTechDrawGui.row5.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row5.BorderSizePixel = 0
-YeTechDrawGui.row5.Position = UDim2.new(1.90140668e-07, 0, 0.393442631, 0)
-YeTechDrawGui.row5.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_5.Name = "Slot1"
-YeTechDrawGui.Slot1_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_5.BorderSizePixel = 2
-YeTechDrawGui.Slot1_5.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_5.Text = ""
-YeTechDrawGui.Slot1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_47.Parent = YeTechDrawGui.Slot1_5
-YeTechDrawGui.UIAspectRatioConstraint_47.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_5.Name = "Slot2"
-YeTechDrawGui.Slot2_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot2_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_5.BorderSizePixel = 2
-YeTechDrawGui.Slot2_5.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_5.Text = ""
-YeTechDrawGui.Slot2_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_48.Parent = YeTechDrawGui.Slot2_5
-YeTechDrawGui.UIAspectRatioConstraint_48.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_5.Name = "Slot3"
-YeTechDrawGui.Slot3_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot3_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_5.BorderSizePixel = 2
-YeTechDrawGui.Slot3_5.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_5.Text = ""
-YeTechDrawGui.Slot3_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_49.Parent = YeTechDrawGui.Slot3_5
-YeTechDrawGui.UIAspectRatioConstraint_49.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_5.Name = "Slot4"
-YeTechDrawGui.Slot4_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot4_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_5.BorderSizePixel = 2
-YeTechDrawGui.Slot4_5.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_5.Text = ""
-YeTechDrawGui.Slot4_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_50.Parent = YeTechDrawGui.Slot4_5
-YeTechDrawGui.UIAspectRatioConstraint_50.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_5.Name = "Slot5"
-YeTechDrawGui.Slot5_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot5_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_5.BorderSizePixel = 2
-YeTechDrawGui.Slot5_5.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_5.Text = ""
-YeTechDrawGui.Slot5_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_51.Parent = YeTechDrawGui.Slot5_5
-YeTechDrawGui.UIAspectRatioConstraint_51.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_5.Name = "Slot6"
-YeTechDrawGui.Slot6_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot6_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_5.BorderSizePixel = 2
-YeTechDrawGui.Slot6_5.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_5.Text = ""
-YeTechDrawGui.Slot6_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_52.Parent = YeTechDrawGui.Slot6_5
-YeTechDrawGui.UIAspectRatioConstraint_52.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_5.Name = "Slot7"
-YeTechDrawGui.Slot7_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot7_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_5.BorderSizePixel = 2
-YeTechDrawGui.Slot7_5.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_5.Text = ""
-YeTechDrawGui.Slot7_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_53.Parent = YeTechDrawGui.Slot7_5
-YeTechDrawGui.UIAspectRatioConstraint_53.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_5.Name = "Slot8"
-YeTechDrawGui.Slot8_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot8_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_5.BorderSizePixel = 2
-YeTechDrawGui.Slot8_5.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_5.Text = ""
-YeTechDrawGui.Slot8_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_54.Parent = YeTechDrawGui.Slot8_5
-YeTechDrawGui.UIAspectRatioConstraint_54.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_5.Name = "Slot9"
-YeTechDrawGui.Slot9_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot9_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_5.BorderSizePixel = 2
-YeTechDrawGui.Slot9_5.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_5.Text = ""
-YeTechDrawGui.Slot9_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_55.Parent = YeTechDrawGui.Slot9_5
-YeTechDrawGui.UIAspectRatioConstraint_55.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_5.Name = "Slot10"
-YeTechDrawGui.Slot10_5.Parent = YeTechDrawGui.row5
-YeTechDrawGui.Slot10_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_5.BorderSizePixel = 2
-YeTechDrawGui.Slot10_5.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_5.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_5.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_5.Text = ""
-YeTechDrawGui.Slot10_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_5.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_56.Parent = YeTechDrawGui.Slot10_5
-YeTechDrawGui.UIAspectRatioConstraint_56.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_57.Parent = YeTechDrawGui.row5
-YeTechDrawGui.UIAspectRatioConstraint_57.AspectRatio = 10.075
-
-YeTechDrawGui.row6.Name = "row6"
-YeTechDrawGui.row6.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row6.BorderSizePixel = 0
-YeTechDrawGui.row6.Position = UDim2.new(1.90140668e-07, 0, 0.491803288, 0)
-YeTechDrawGui.row6.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_6.Name = "Slot1"
-YeTechDrawGui.Slot1_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot1_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_6.BorderSizePixel = 2
-YeTechDrawGui.Slot1_6.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_6.Text = ""
-YeTechDrawGui.Slot1_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_58.Parent = YeTechDrawGui.Slot1_6
-YeTechDrawGui.UIAspectRatioConstraint_58.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_6.Name = "Slot2"
-YeTechDrawGui.Slot2_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot2_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_6.BorderSizePixel = 2
-YeTechDrawGui.Slot2_6.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_6.Text = ""
-YeTechDrawGui.Slot2_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_59.Parent = YeTechDrawGui.Slot2_6
-YeTechDrawGui.UIAspectRatioConstraint_59.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_6.Name = "Slot3"
-YeTechDrawGui.Slot3_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot3_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_6.BorderSizePixel = 2
-YeTechDrawGui.Slot3_6.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_6.Text = ""
-YeTechDrawGui.Slot3_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_60.Parent = YeTechDrawGui.Slot3_6
-YeTechDrawGui.UIAspectRatioConstraint_60.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_6.Name = "Slot4"
-YeTechDrawGui.Slot4_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot4_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_6.BorderSizePixel = 2
-YeTechDrawGui.Slot4_6.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_6.Text = ""
-YeTechDrawGui.Slot4_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_61.Parent = YeTechDrawGui.Slot4_6
-YeTechDrawGui.UIAspectRatioConstraint_61.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_6.Name = "Slot5"
-YeTechDrawGui.Slot5_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot5_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_6.BorderSizePixel = 2
-YeTechDrawGui.Slot5_6.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_6.Text = ""
-YeTechDrawGui.Slot5_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_62.Parent = YeTechDrawGui.Slot5_6
-YeTechDrawGui.UIAspectRatioConstraint_62.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_6.Name = "Slot6"
-YeTechDrawGui.Slot6_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot6_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_6.BorderSizePixel = 2
-YeTechDrawGui.Slot6_6.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_6.Text = ""
-YeTechDrawGui.Slot6_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_63.Parent = YeTechDrawGui.Slot6_6
-YeTechDrawGui.UIAspectRatioConstraint_63.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_6.Name = "Slot7"
-YeTechDrawGui.Slot7_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot7_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_6.BorderSizePixel = 2
-YeTechDrawGui.Slot7_6.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_6.Text = ""
-YeTechDrawGui.Slot7_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_64.Parent = YeTechDrawGui.Slot7_6
-YeTechDrawGui.UIAspectRatioConstraint_64.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_6.Name = "Slot8"
-YeTechDrawGui.Slot8_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot8_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_6.BorderSizePixel = 2
-YeTechDrawGui.Slot8_6.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_6.Text = ""
-YeTechDrawGui.Slot8_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_65.Parent = YeTechDrawGui.Slot8_6
-YeTechDrawGui.UIAspectRatioConstraint_65.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_6.Name = "Slot9"
-YeTechDrawGui.Slot9_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot9_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_6.BorderSizePixel = 2
-YeTechDrawGui.Slot9_6.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_6.Text = ""
-YeTechDrawGui.Slot9_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_66.Parent = YeTechDrawGui.Slot9_6
-YeTechDrawGui.UIAspectRatioConstraint_66.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_6.Name = "Slot10"
-YeTechDrawGui.Slot10_6.Parent = YeTechDrawGui.row6
-YeTechDrawGui.Slot10_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_6.BorderSizePixel = 2
-YeTechDrawGui.Slot10_6.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_6.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_6.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_6.Text = ""
-YeTechDrawGui.Slot10_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_6.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_67.Parent = YeTechDrawGui.Slot10_6
-YeTechDrawGui.UIAspectRatioConstraint_67.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_68.Parent = YeTechDrawGui.row6
-YeTechDrawGui.UIAspectRatioConstraint_68.AspectRatio = 10.075
-
-YeTechDrawGui.row7.Name = "row7"
-YeTechDrawGui.row7.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row7.BorderSizePixel = 0
-YeTechDrawGui.row7.Position = UDim2.new(1.90140668e-07, 0, 0.590163946, 0)
-YeTechDrawGui.row7.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_7.Name = "Slot1"
-YeTechDrawGui.Slot1_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot1_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_7.BorderSizePixel = 2
-YeTechDrawGui.Slot1_7.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_7.Text = ""
-YeTechDrawGui.Slot1_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_69.Parent = YeTechDrawGui.Slot1_7
-YeTechDrawGui.UIAspectRatioConstraint_69.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_7.Name = "Slot2"
-YeTechDrawGui.Slot2_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot2_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_7.BorderSizePixel = 2
-YeTechDrawGui.Slot2_7.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_7.Text = ""
-YeTechDrawGui.Slot2_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_70.Parent = YeTechDrawGui.Slot2_7
-YeTechDrawGui.UIAspectRatioConstraint_70.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_7.Name = "Slot3"
-YeTechDrawGui.Slot3_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot3_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_7.BorderSizePixel = 2
-YeTechDrawGui.Slot3_7.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_7.Text = ""
-YeTechDrawGui.Slot3_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_71.Parent = YeTechDrawGui.Slot3_7
-YeTechDrawGui.UIAspectRatioConstraint_71.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_7.Name = "Slot4"
-YeTechDrawGui.Slot4_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot4_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_7.BorderSizePixel = 2
-YeTechDrawGui.Slot4_7.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_7.Text = ""
-YeTechDrawGui.Slot4_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_72.Parent = YeTechDrawGui.Slot4_7
-YeTechDrawGui.UIAspectRatioConstraint_72.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_7.Name = "Slot5"
-YeTechDrawGui.Slot5_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot5_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_7.BorderSizePixel = 2
-YeTechDrawGui.Slot5_7.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_7.Text = ""
-YeTechDrawGui.Slot5_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_73.Parent = YeTechDrawGui.Slot5_7
-YeTechDrawGui.UIAspectRatioConstraint_73.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_7.Name = "Slot6"
-YeTechDrawGui.Slot6_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot6_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_7.BorderSizePixel = 2
-YeTechDrawGui.Slot6_7.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_7.Text = ""
-YeTechDrawGui.Slot6_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_74.Parent = YeTechDrawGui.Slot6_7
-YeTechDrawGui.UIAspectRatioConstraint_74.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_7.Name = "Slot7"
-YeTechDrawGui.Slot7_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot7_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_7.BorderSizePixel = 2
-YeTechDrawGui.Slot7_7.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_7.Text = ""
-YeTechDrawGui.Slot7_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_75.Parent = YeTechDrawGui.Slot7_7
-YeTechDrawGui.UIAspectRatioConstraint_75.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_7.Name = "Slot8"
-YeTechDrawGui.Slot8_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot8_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_7.BorderSizePixel = 2
-YeTechDrawGui.Slot8_7.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_7.Text = ""
-YeTechDrawGui.Slot8_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_76.Parent = YeTechDrawGui.Slot8_7
-YeTechDrawGui.UIAspectRatioConstraint_76.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_7.Name = "Slot9"
-YeTechDrawGui.Slot9_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot9_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_7.BorderSizePixel = 2
-YeTechDrawGui.Slot9_7.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_7.Text = ""
-YeTechDrawGui.Slot9_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_77.Parent = YeTechDrawGui.Slot9_7
-YeTechDrawGui.UIAspectRatioConstraint_77.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_7.Name = "Slot10"
-YeTechDrawGui.Slot10_7.Parent = YeTechDrawGui.row7
-YeTechDrawGui.Slot10_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_7.BorderSizePixel = 2
-YeTechDrawGui.Slot10_7.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_7.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_7.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_7.Text = ""
-YeTechDrawGui.Slot10_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_7.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_78.Parent = YeTechDrawGui.Slot10_7
-YeTechDrawGui.UIAspectRatioConstraint_78.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_79.Parent = YeTechDrawGui.row7
-YeTechDrawGui.UIAspectRatioConstraint_79.AspectRatio = 10.075
-
-YeTechDrawGui.row8.Name = "row8"
-YeTechDrawGui.row8.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row8.BorderSizePixel = 0
-YeTechDrawGui.row8.Position = UDim2.new(1.90140668e-07, 0, 0.688524604, 0)
-YeTechDrawGui.row8.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_8.Name = "Slot1"
-YeTechDrawGui.Slot1_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot1_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_8.BorderSizePixel = 2
-YeTechDrawGui.Slot1_8.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_8.Text = ""
-YeTechDrawGui.Slot1_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_80.Parent = YeTechDrawGui.Slot1_8
-YeTechDrawGui.UIAspectRatioConstraint_80.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_8.Name = "Slot2"
-YeTechDrawGui.Slot2_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot2_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_8.BorderSizePixel = 2
-YeTechDrawGui.Slot2_8.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_8.Text = ""
-YeTechDrawGui.Slot2_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_81.Parent = YeTechDrawGui.Slot2_8
-YeTechDrawGui.UIAspectRatioConstraint_81.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_8.Name = "Slot3"
-YeTechDrawGui.Slot3_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot3_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_8.BorderSizePixel = 2
-YeTechDrawGui.Slot3_8.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_8.Text = ""
-YeTechDrawGui.Slot3_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_82.Parent = YeTechDrawGui.Slot3_8
-YeTechDrawGui.UIAspectRatioConstraint_82.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_8.Name = "Slot4"
-YeTechDrawGui.Slot4_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot4_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_8.BorderSizePixel = 2
-YeTechDrawGui.Slot4_8.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_8.Text = ""
-YeTechDrawGui.Slot4_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_83.Parent = YeTechDrawGui.Slot4_8
-YeTechDrawGui.UIAspectRatioConstraint_83.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_8.Name = "Slot5"
-YeTechDrawGui.Slot5_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot5_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_8.BorderSizePixel = 2
-YeTechDrawGui.Slot5_8.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_8.Text = ""
-YeTechDrawGui.Slot5_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_84.Parent = YeTechDrawGui.Slot5_8
-YeTechDrawGui.UIAspectRatioConstraint_84.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_8.Name = "Slot6"
-YeTechDrawGui.Slot6_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot6_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_8.BorderSizePixel = 2
-YeTechDrawGui.Slot6_8.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_8.Text = ""
-YeTechDrawGui.Slot6_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_85.Parent = YeTechDrawGui.Slot6_8
-YeTechDrawGui.UIAspectRatioConstraint_85.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_8.Name = "Slot7"
-YeTechDrawGui.Slot7_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot7_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_8.BorderSizePixel = 2
-YeTechDrawGui.Slot7_8.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_8.Text = ""
-YeTechDrawGui.Slot7_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_86.Parent = YeTechDrawGui.Slot7_8
-YeTechDrawGui.UIAspectRatioConstraint_86.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_8.Name = "Slot8"
-YeTechDrawGui.Slot8_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot8_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_8.BorderSizePixel = 2
-YeTechDrawGui.Slot8_8.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_8.Text = ""
-YeTechDrawGui.Slot8_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_87.Parent = YeTechDrawGui.Slot8_8
-YeTechDrawGui.UIAspectRatioConstraint_87.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_8.Name = "Slot9"
-YeTechDrawGui.Slot9_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot9_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_8.BorderSizePixel = 2
-YeTechDrawGui.Slot9_8.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_8.Text = ""
-YeTechDrawGui.Slot9_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_88.Parent = YeTechDrawGui.Slot9_8
-YeTechDrawGui.UIAspectRatioConstraint_88.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_8.Name = "Slot10"
-YeTechDrawGui.Slot10_8.Parent = YeTechDrawGui.row8
-YeTechDrawGui.Slot10_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_8.BorderSizePixel = 2
-YeTechDrawGui.Slot10_8.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_8.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_8.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_8.Text = ""
-YeTechDrawGui.Slot10_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_8.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_89.Parent = YeTechDrawGui.Slot10_8
-YeTechDrawGui.UIAspectRatioConstraint_89.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_90.Parent = YeTechDrawGui.row8
-YeTechDrawGui.UIAspectRatioConstraint_90.AspectRatio = 10.075
-
-YeTechDrawGui.row9.Name = "row9"
-YeTechDrawGui.row9.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row9.BorderSizePixel = 0
-YeTechDrawGui.row9.Position = UDim2.new(1.90140668e-07, 0, 0.786885262, 0)
-YeTechDrawGui.row9.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_9.Name = "Slot1"
-YeTechDrawGui.Slot1_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot1_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_9.BorderSizePixel = 2
-YeTechDrawGui.Slot1_9.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_9.Text = ""
-YeTechDrawGui.Slot1_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_91.Parent = YeTechDrawGui.Slot1_9
-YeTechDrawGui.UIAspectRatioConstraint_91.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_9.Name = "Slot2"
-YeTechDrawGui.Slot2_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot2_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_9.BorderSizePixel = 2
-YeTechDrawGui.Slot2_9.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_9.Text = ""
-YeTechDrawGui.Slot2_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_92.Parent = YeTechDrawGui.Slot2_9
-YeTechDrawGui.UIAspectRatioConstraint_92.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_9.Name = "Slot3"
-YeTechDrawGui.Slot3_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot3_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_9.BorderSizePixel = 2
-YeTechDrawGui.Slot3_9.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_9.Text = ""
-YeTechDrawGui.Slot3_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_93.Parent = YeTechDrawGui.Slot3_9
-YeTechDrawGui.UIAspectRatioConstraint_93.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_9.Name = "Slot4"
-YeTechDrawGui.Slot4_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot4_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_9.BorderSizePixel = 2
-YeTechDrawGui.Slot4_9.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_9.Text = ""
-YeTechDrawGui.Slot4_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_94.Parent = YeTechDrawGui.Slot4_9
-YeTechDrawGui.UIAspectRatioConstraint_94.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_9.Name = "Slot5"
-YeTechDrawGui.Slot5_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot5_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_9.BorderSizePixel = 2
-YeTechDrawGui.Slot5_9.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_9.Text = ""
-YeTechDrawGui.Slot5_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_95.Parent = YeTechDrawGui.Slot5_9
-YeTechDrawGui.UIAspectRatioConstraint_95.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_9.Name = "Slot6"
-YeTechDrawGui.Slot6_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot6_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_9.BorderSizePixel = 2
-YeTechDrawGui.Slot6_9.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_9.Text = ""
-YeTechDrawGui.Slot6_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_96.Parent = YeTechDrawGui.Slot6_9
-YeTechDrawGui.UIAspectRatioConstraint_96.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_9.Name = "Slot7"
-YeTechDrawGui.Slot7_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot7_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_9.BorderSizePixel = 2
-YeTechDrawGui.Slot7_9.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_9.Text = ""
-YeTechDrawGui.Slot7_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_97.Parent = YeTechDrawGui.Slot7_9
-YeTechDrawGui.UIAspectRatioConstraint_97.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_9.Name = "Slot8"
-YeTechDrawGui.Slot8_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot8_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_9.BorderSizePixel = 2
-YeTechDrawGui.Slot8_9.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_9.Text = ""
-YeTechDrawGui.Slot8_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_98.Parent = YeTechDrawGui.Slot8_9
-YeTechDrawGui.UIAspectRatioConstraint_98.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_9.Name = "Slot9"
-YeTechDrawGui.Slot9_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot9_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_9.BorderSizePixel = 2
-YeTechDrawGui.Slot9_9.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_9.Text = ""
-YeTechDrawGui.Slot9_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_99.Parent = YeTechDrawGui.Slot9_9
-YeTechDrawGui.UIAspectRatioConstraint_99.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_9.Name = "Slot10"
-YeTechDrawGui.Slot10_9.Parent = YeTechDrawGui.row9
-YeTechDrawGui.Slot10_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_9.BorderSizePixel = 2
-YeTechDrawGui.Slot10_9.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_9.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_9.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_9.Text = ""
-YeTechDrawGui.Slot10_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_9.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_100.Parent = YeTechDrawGui.Slot10_9
-YeTechDrawGui.UIAspectRatioConstraint_100.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_101.Parent = YeTechDrawGui.row9
-YeTechDrawGui.UIAspectRatioConstraint_101.AspectRatio = 10.075
-
-YeTechDrawGui.row10.Name = "row10"
-YeTechDrawGui.row10.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.row10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.row10.BorderSizePixel = 0
-YeTechDrawGui.row10.Position = UDim2.new(1.90140668e-07, 0, 0.885245919, 0)
-YeTechDrawGui.row10.Size = UDim2.new(0.963855445, 0, 0.10819672, 0)
-
-YeTechDrawGui.Slot1_10.Name = "Slot1"
-YeTechDrawGui.Slot1_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot1_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot1_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_10.BorderSizePixel = 2
-YeTechDrawGui.Slot1_10.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot1_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot1_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot1_10.Text = ""
-YeTechDrawGui.Slot1_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot1_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_102.Parent = YeTechDrawGui.Slot1_10
-YeTechDrawGui.UIAspectRatioConstraint_102.AspectRatio = 1.074
-
-YeTechDrawGui.Slot2_10.Name = "Slot2"
-YeTechDrawGui.Slot2_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot2_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot2_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_10.BorderSizePixel = 2
-YeTechDrawGui.Slot2_10.Position = UDim2.new(0.109999999, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot2_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot2_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot2_10.Text = ""
-YeTechDrawGui.Slot2_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot2_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_103.Parent = YeTechDrawGui.Slot2_10
-YeTechDrawGui.UIAspectRatioConstraint_103.AspectRatio = 1.074
-
-YeTechDrawGui.Slot3_10.Name = "Slot3"
-YeTechDrawGui.Slot3_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot3_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot3_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_10.BorderSizePixel = 2
-YeTechDrawGui.Slot3_10.Position = UDim2.new(0.215000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot3_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot3_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot3_10.Text = ""
-YeTechDrawGui.Slot3_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot3_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_104.Parent = YeTechDrawGui.Slot3_10
-YeTechDrawGui.UIAspectRatioConstraint_104.AspectRatio = 1.074
-
-YeTechDrawGui.Slot4_10.Name = "Slot4"
-YeTechDrawGui.Slot4_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot4_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot4_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_10.BorderSizePixel = 2
-YeTechDrawGui.Slot4_10.Position = UDim2.new(0.319999993, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot4_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot4_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot4_10.Text = ""
-YeTechDrawGui.Slot4_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot4_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_105.Parent = YeTechDrawGui.Slot4_10
-YeTechDrawGui.UIAspectRatioConstraint_105.AspectRatio = 1.074
-
-YeTechDrawGui.Slot5_10.Name = "Slot5"
-YeTechDrawGui.Slot5_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot5_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot5_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_10.BorderSizePixel = 2
-YeTechDrawGui.Slot5_10.Position = UDim2.new(0.423999995, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot5_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot5_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot5_10.Text = ""
-YeTechDrawGui.Slot5_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot5_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_106.Parent = YeTechDrawGui.Slot5_10
-YeTechDrawGui.UIAspectRatioConstraint_106.AspectRatio = 1.074
-
-YeTechDrawGui.Slot6_10.Name = "Slot6"
-YeTechDrawGui.Slot6_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot6_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot6_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_10.BorderSizePixel = 2
-YeTechDrawGui.Slot6_10.Position = UDim2.new(0.531000018, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot6_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot6_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot6_10.Text = ""
-YeTechDrawGui.Slot6_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot6_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_107.Parent = YeTechDrawGui.Slot6_10
-YeTechDrawGui.UIAspectRatioConstraint_107.AspectRatio = 1.074
-
-YeTechDrawGui.Slot7_10.Name = "Slot7"
-YeTechDrawGui.Slot7_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot7_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot7_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_10.BorderSizePixel = 2
-YeTechDrawGui.Slot7_10.Position = UDim2.new(0.630999982, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot7_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot7_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot7_10.Text = ""
-YeTechDrawGui.Slot7_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot7_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_108.Parent = YeTechDrawGui.Slot7_10
-YeTechDrawGui.UIAspectRatioConstraint_108.AspectRatio = 1.074
-
-YeTechDrawGui.Slot8_10.Name = "Slot8"
-YeTechDrawGui.Slot8_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot8_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot8_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_10.BorderSizePixel = 2
-YeTechDrawGui.Slot8_10.Position = UDim2.new(0.73299998, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot8_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot8_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot8_10.Text = ""
-YeTechDrawGui.Slot8_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot8_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_109.Parent = YeTechDrawGui.Slot8_10
-YeTechDrawGui.UIAspectRatioConstraint_109.AspectRatio = 1.074
-
-YeTechDrawGui.Slot9_10.Name = "Slot9"
-YeTechDrawGui.Slot9_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot9_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot9_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_10.BorderSizePixel = 2
-YeTechDrawGui.Slot9_10.Position = UDim2.new(0.833000004, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot9_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot9_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot9_10.Text = ""
-YeTechDrawGui.Slot9_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot9_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_110.Parent = YeTechDrawGui.Slot9_10
-YeTechDrawGui.UIAspectRatioConstraint_110.AspectRatio = 1.074
-
-YeTechDrawGui.Slot10_10.Name = "Slot10"
-YeTechDrawGui.Slot10_10.Parent = YeTechDrawGui.row10
-YeTechDrawGui.Slot10_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-YeTechDrawGui.Slot10_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_10.BorderSizePixel = 2
-YeTechDrawGui.Slot10_10.Position = UDim2.new(0.934000015, 0, 0.0439999998, 0)
-YeTechDrawGui.Slot10_10.Size = UDim2.new(0.096874997, 0, 0.909090936, 0)
-YeTechDrawGui.Slot10_10.Font = Enum.Font.SourceSans
-YeTechDrawGui.Slot10_10.Text = ""
-YeTechDrawGui.Slot10_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-YeTechDrawGui.Slot10_10.TextSize = 14.000
-
-YeTechDrawGui.UIAspectRatioConstraint_111.Parent = YeTechDrawGui.Slot10_10
-YeTechDrawGui.UIAspectRatioConstraint_111.AspectRatio = 1.074
-
-YeTechDrawGui.UIAspectRatioConstraint_112.Parent = YeTechDrawGui.row10
-YeTechDrawGui.UIAspectRatioConstraint_112.AspectRatio = 10.075
-
-YeTechDrawGui.UIAspectRatioConstraint_113.Parent = YeTechDrawGui.Frame_2
-YeTechDrawGui.UIAspectRatioConstraint_113.AspectRatio = 1.131
-
-YeTechDrawGui.UIAspectRatioConstraint_114.Parent = YeTechDrawGui.Frame
-YeTechDrawGui.UIAspectRatioConstraint_114.AspectRatio = 0.761
+YeTechDrawGui.Name = "YeTechDrawGui"
+YeTechDrawGui.Parent = game.CoreGui
+YeTechDrawGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = YeTechDrawGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 247, 0)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.279411107, 0, 0.0256349631, 0)
+Frame.Size = UDim2.new(0.42757228, 0, 0.961280882, 0)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(42, 39, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 247, 0)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.231161371, 0, 0.86270541, 0)
+TextButton.Size = UDim2.new(0.520833313, 0, 0.0878970176, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Chat"
+TextButton.TextColor3 = Color3.fromRGB(255, 247, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = TextButton
+UIAspectRatioConstraint.AspectRatio = 4.156
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 247, 0)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(-0.00265852292, 0, 0, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.101960532, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "YeTech Chat Drawer FE"
+TextLabel.TextColor3 = Color3.fromRGB(255, 247, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = TextLabel
+UIAspectRatioConstraint_2.AspectRatio = 6.879
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 247, 0)
+Frame_2.BorderSizePixel = 3
+Frame_2.Position = UDim2.new(0.0782124326, 0, 0.11214675, 0)
+Frame_2.Size = UDim2.new(0.829112828, 0, 0.561522126, 0)
+
+row1.Name = "row1"
+row1.Parent = Frame_2
+row1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row1.BackgroundTransparency = 1.000
+row1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row1.BorderSizePixel = 0
+row1.Position = UDim2.new(-0.00289549003, 0, -0.00298232748, 0)
+row1.Size = UDim2.new(1.17656374, 0, 0.135435075, 0)
+
+Slot1.Name = "Slot1"
+Slot1.Parent = row1
+Slot1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1.BorderSizePixel = 2
+Slot1.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1.Font = Enum.Font.SourceSans
+Slot1.Text = ""
+Slot1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1.TextSize = 14.000
+
+Slot2.Name = "Slot2"
+Slot2.Parent = row1
+Slot2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2.BorderSizePixel = 2
+Slot2.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2.Font = Enum.Font.SourceSans
+Slot2.Text = ""
+Slot2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2.TextSize = 14.000
+
+Slot3.Name = "Slot3"
+Slot3.Parent = row1
+Slot3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3.BorderSizePixel = 2
+Slot3.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3.Font = Enum.Font.SourceSans
+Slot3.Text = ""
+Slot3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3.TextSize = 14.000
+
+Slot4.Name = "Slot4"
+Slot4.Parent = row1
+Slot4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4.BorderSizePixel = 2
+Slot4.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4.Font = Enum.Font.SourceSans
+Slot4.Text = ""
+Slot4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4.TextSize = 14.000
+
+Slot5.Name = "Slot5"
+Slot5.Parent = row1
+Slot5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5.BorderSizePixel = 2
+Slot5.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5.Font = Enum.Font.SourceSans
+Slot5.Text = ""
+Slot5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5.TextSize = 14.000
+
+Slot6.Name = "Slot6"
+Slot6.Parent = row1
+Slot6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6.BorderSizePixel = 2
+Slot6.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6.Font = Enum.Font.SourceSans
+Slot6.Text = ""
+Slot6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6.TextSize = 14.000
+
+Slot7.Name = "Slot7"
+Slot7.Parent = row1
+Slot7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7.BorderSizePixel = 2
+Slot7.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7.Font = Enum.Font.SourceSans
+Slot7.Text = ""
+Slot7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7.TextSize = 14.000
+
+Slot8.Name = "Slot8"
+Slot8.Parent = row1
+Slot8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8.BorderSizePixel = 2
+Slot8.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8.Font = Enum.Font.SourceSans
+Slot8.Text = ""
+Slot8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8.TextSize = 14.000
+
+Slot9.Name = "Slot9"
+Slot9.Parent = row1
+Slot9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9.BorderSizePixel = 2
+Slot9.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9.Font = Enum.Font.SourceSans
+Slot9.Text = ""
+Slot9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9.TextSize = 14.000
+
+Slot10.Name = "Slot10"
+Slot10.Parent = row1
+Slot10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10.BorderSizePixel = 2
+Slot10.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10.Font = Enum.Font.SourceSans
+Slot10.Text = ""
+Slot10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10.TextSize = 14.000
+
+Slot11.Name = "Slot11"
+Slot11.Parent = row1
+Slot11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11.BorderSizePixel = 2
+Slot11.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11.Font = Enum.Font.SourceSans
+Slot11.Text = ""
+Slot11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11.TextSize = 14.000
+
+Slot12.Name = "Slot12"
+Slot12.Parent = row1
+Slot12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12.BorderSizePixel = 2
+Slot12.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12.Font = Enum.Font.SourceSans
+Slot12.Text = ""
+Slot12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12.TextSize = 14.000
+
+row2.Name = "row2"
+row2.Parent = Frame_2
+row2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row2.BackgroundTransparency = 1.000
+row2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row2.BorderSizePixel = 0
+row2.Position = UDim2.new(-0.00289549003, 0, 0.0767043531, 0)
+row2.Size = UDim2.new(1.17656374, 0, 0.13543503, 0)
+
+Slot1_2.Name = "Slot1"
+Slot1_2.Parent = row2
+Slot1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_2.BorderSizePixel = 2
+Slot1_2.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_2.Font = Enum.Font.SourceSans
+Slot1_2.Text = ""
+Slot1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_2.TextSize = 14.000
+
+Slot2_2.Name = "Slot2"
+Slot2_2.Parent = row2
+Slot2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_2.BorderSizePixel = 2
+Slot2_2.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_2.Font = Enum.Font.SourceSans
+Slot2_2.Text = ""
+Slot2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_2.TextSize = 14.000
+
+Slot3_2.Name = "Slot3"
+Slot3_2.Parent = row2
+Slot3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_2.BorderSizePixel = 2
+Slot3_2.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_2.Font = Enum.Font.SourceSans
+Slot3_2.Text = ""
+Slot3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_2.TextSize = 14.000
+
+Slot4_2.Name = "Slot4"
+Slot4_2.Parent = row2
+Slot4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_2.BorderSizePixel = 2
+Slot4_2.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_2.Font = Enum.Font.SourceSans
+Slot4_2.Text = ""
+Slot4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_2.TextSize = 14.000
+
+Slot5_2.Name = "Slot5"
+Slot5_2.Parent = row2
+Slot5_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_2.BorderSizePixel = 2
+Slot5_2.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_2.Font = Enum.Font.SourceSans
+Slot5_2.Text = ""
+Slot5_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_2.TextSize = 14.000
+
+Slot6_2.Name = "Slot6"
+Slot6_2.Parent = row2
+Slot6_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_2.BorderSizePixel = 2
+Slot6_2.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_2.Font = Enum.Font.SourceSans
+Slot6_2.Text = ""
+Slot6_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_2.TextSize = 14.000
+
+Slot7_2.Name = "Slot7"
+Slot7_2.Parent = row2
+Slot7_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_2.BorderSizePixel = 2
+Slot7_2.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_2.Font = Enum.Font.SourceSans
+Slot7_2.Text = ""
+Slot7_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_2.TextSize = 14.000
+
+Slot8_2.Name = "Slot8"
+Slot8_2.Parent = row2
+Slot8_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_2.BorderSizePixel = 2
+Slot8_2.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_2.Font = Enum.Font.SourceSans
+Slot8_2.Text = ""
+Slot8_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_2.TextSize = 14.000
+
+Slot9_2.Name = "Slot9"
+Slot9_2.Parent = row2
+Slot9_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_2.BorderSizePixel = 2
+Slot9_2.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_2.Font = Enum.Font.SourceSans
+Slot9_2.Text = ""
+Slot9_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_2.TextSize = 14.000
+
+Slot10_2.Name = "Slot10"
+Slot10_2.Parent = row2
+Slot10_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_2.BorderSizePixel = 2
+Slot10_2.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_2.Font = Enum.Font.SourceSans
+Slot10_2.Text = ""
+Slot10_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_2.TextSize = 14.000
+
+Slot11_2.Name = "Slot11"
+Slot11_2.Parent = row2
+Slot11_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_2.BorderSizePixel = 2
+Slot11_2.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_2.Font = Enum.Font.SourceSans
+Slot11_2.Text = ""
+Slot11_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_2.TextSize = 14.000
+
+Slot12_2.Name = "Slot12"
+Slot12_2.Parent = row2
+Slot12_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_2.BorderSizePixel = 2
+Slot12_2.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_2.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_2.Font = Enum.Font.SourceSans
+Slot12_2.Text = ""
+Slot12_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_2.TextSize = 14.000
+
+row3.Name = "row3"
+row3.Parent = Frame_2
+row3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row3.BackgroundTransparency = 1.000
+row3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row3.BorderSizePixel = 0
+row3.Position = UDim2.new(-0.00289549003, 0, 0.164053485, 0)
+row3.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_3.Name = "Slot1"
+Slot1_3.Parent = row3
+Slot1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_3.BorderSizePixel = 2
+Slot1_3.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_3.Font = Enum.Font.SourceSans
+Slot1_3.Text = ""
+Slot1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_3.TextSize = 14.000
+
+Slot2_3.Name = "Slot2"
+Slot2_3.Parent = row3
+Slot2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_3.BorderSizePixel = 2
+Slot2_3.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_3.Font = Enum.Font.SourceSans
+Slot2_3.Text = ""
+Slot2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_3.TextSize = 14.000
+
+Slot3_3.Name = "Slot3"
+Slot3_3.Parent = row3
+Slot3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_3.BorderSizePixel = 2
+Slot3_3.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_3.Font = Enum.Font.SourceSans
+Slot3_3.Text = ""
+Slot3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_3.TextSize = 14.000
+
+Slot4_3.Name = "Slot4"
+Slot4_3.Parent = row3
+Slot4_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_3.BorderSizePixel = 2
+Slot4_3.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_3.Font = Enum.Font.SourceSans
+Slot4_3.Text = ""
+Slot4_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_3.TextSize = 14.000
+
+Slot5_3.Name = "Slot5"
+Slot5_3.Parent = row3
+Slot5_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_3.BorderSizePixel = 2
+Slot5_3.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_3.Font = Enum.Font.SourceSans
+Slot5_3.Text = ""
+Slot5_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_3.TextSize = 14.000
+
+Slot6_3.Name = "Slot6"
+Slot6_3.Parent = row3
+Slot6_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_3.BorderSizePixel = 2
+Slot6_3.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_3.Font = Enum.Font.SourceSans
+Slot6_3.Text = ""
+Slot6_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_3.TextSize = 14.000
+
+Slot7_3.Name = "Slot7"
+Slot7_3.Parent = row3
+Slot7_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_3.BorderSizePixel = 2
+Slot7_3.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_3.Font = Enum.Font.SourceSans
+Slot7_3.Text = ""
+Slot7_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_3.TextSize = 14.000
+
+Slot8_3.Name = "Slot8"
+Slot8_3.Parent = row3
+Slot8_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_3.BorderSizePixel = 2
+Slot8_3.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_3.Font = Enum.Font.SourceSans
+Slot8_3.Text = ""
+Slot8_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_3.TextSize = 14.000
+
+Slot9_3.Name = "Slot9"
+Slot9_3.Parent = row3
+Slot9_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_3.BorderSizePixel = 2
+Slot9_3.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_3.Font = Enum.Font.SourceSans
+Slot9_3.Text = ""
+Slot9_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_3.TextSize = 14.000
+
+Slot10_3.Name = "Slot10"
+Slot10_3.Parent = row3
+Slot10_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_3.BorderSizePixel = 2
+Slot10_3.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_3.Font = Enum.Font.SourceSans
+Slot10_3.Text = ""
+Slot10_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_3.TextSize = 14.000
+
+Slot11_3.Name = "Slot11"
+Slot11_3.Parent = row3
+Slot11_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_3.BorderSizePixel = 2
+Slot11_3.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_3.Font = Enum.Font.SourceSans
+Slot11_3.Text = ""
+Slot11_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_3.TextSize = 14.000
+
+Slot12_3.Name = "Slot12"
+Slot12_3.Parent = row3
+Slot12_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_3.BorderSizePixel = 2
+Slot12_3.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_3.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_3.Font = Enum.Font.SourceSans
+Slot12_3.Text = ""
+Slot12_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_3.TextSize = 14.000
+
+row4.Name = "row4"
+row4.Parent = Frame_2
+row4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row4.BackgroundTransparency = 1.000
+row4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row4.BorderSizePixel = 0
+row4.Position = UDim2.new(-0.00289549003, 0, 0.24048394, 0)
+row4.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_4.Name = "Slot1"
+Slot1_4.Parent = row4
+Slot1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_4.BorderSizePixel = 2
+Slot1_4.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_4.Font = Enum.Font.SourceSans
+Slot1_4.Text = ""
+Slot1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_4.TextSize = 14.000
+
+Slot2_4.Name = "Slot2"
+Slot2_4.Parent = row4
+Slot2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_4.BorderSizePixel = 2
+Slot2_4.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_4.Font = Enum.Font.SourceSans
+Slot2_4.Text = ""
+Slot2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_4.TextSize = 14.000
+
+Slot3_4.Name = "Slot3"
+Slot3_4.Parent = row4
+Slot3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_4.BorderSizePixel = 2
+Slot3_4.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_4.Font = Enum.Font.SourceSans
+Slot3_4.Text = ""
+Slot3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_4.TextSize = 14.000
+
+Slot4_4.Name = "Slot4"
+Slot4_4.Parent = row4
+Slot4_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_4.BorderSizePixel = 2
+Slot4_4.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_4.Font = Enum.Font.SourceSans
+Slot4_4.Text = ""
+Slot4_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_4.TextSize = 14.000
+
+Slot5_4.Name = "Slot5"
+Slot5_4.Parent = row4
+Slot5_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_4.BorderSizePixel = 2
+Slot5_4.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_4.Font = Enum.Font.SourceSans
+Slot5_4.Text = ""
+Slot5_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_4.TextSize = 14.000
+
+Slot6_4.Name = "Slot6"
+Slot6_4.Parent = row4
+Slot6_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_4.BorderSizePixel = 2
+Slot6_4.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_4.Font = Enum.Font.SourceSans
+Slot6_4.Text = ""
+Slot6_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_4.TextSize = 14.000
+
+Slot7_4.Name = "Slot7"
+Slot7_4.Parent = row4
+Slot7_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_4.BorderSizePixel = 2
+Slot7_4.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_4.Font = Enum.Font.SourceSans
+Slot7_4.Text = ""
+Slot7_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_4.TextSize = 14.000
+
+Slot8_4.Name = "Slot8"
+Slot8_4.Parent = row4
+Slot8_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_4.BorderSizePixel = 2
+Slot8_4.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_4.Font = Enum.Font.SourceSans
+Slot8_4.Text = ""
+Slot8_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_4.TextSize = 14.000
+
+Slot9_4.Name = "Slot9"
+Slot9_4.Parent = row4
+Slot9_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_4.BorderSizePixel = 2
+Slot9_4.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_4.Font = Enum.Font.SourceSans
+Slot9_4.Text = ""
+Slot9_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_4.TextSize = 14.000
+
+Slot10_4.Name = "Slot10"
+Slot10_4.Parent = row4
+Slot10_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_4.BorderSizePixel = 2
+Slot10_4.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_4.Font = Enum.Font.SourceSans
+Slot10_4.Text = ""
+Slot10_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_4.TextSize = 14.000
+
+Slot11_4.Name = "Slot11"
+Slot11_4.Parent = row4
+Slot11_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_4.BorderSizePixel = 2
+Slot11_4.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_4.Font = Enum.Font.SourceSans
+Slot11_4.Text = ""
+Slot11_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_4.TextSize = 14.000
+
+Slot12_4.Name = "Slot12"
+Slot12_4.Parent = row4
+Slot12_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_4.BorderSizePixel = 2
+Slot12_4.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_4.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_4.Font = Enum.Font.SourceSans
+Slot12_4.Text = ""
+Slot12_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_4.TextSize = 14.000
+
+row5.Name = "row5"
+row5.Parent = Frame_2
+row5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row5.BackgroundTransparency = 1.000
+row5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row5.BorderSizePixel = 0
+row5.Position = UDim2.new(-0.00289549003, 0, 0.316914499, 0)
+row5.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_5.Name = "Slot1"
+Slot1_5.Parent = row5
+Slot1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_5.BorderSizePixel = 2
+Slot1_5.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_5.Font = Enum.Font.SourceSans
+Slot1_5.Text = ""
+Slot1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_5.TextSize = 14.000
+
+Slot2_5.Name = "Slot2"
+Slot2_5.Parent = row5
+Slot2_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_5.BorderSizePixel = 2
+Slot2_5.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_5.Font = Enum.Font.SourceSans
+Slot2_5.Text = ""
+Slot2_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_5.TextSize = 14.000
+
+Slot3_5.Name = "Slot3"
+Slot3_5.Parent = row5
+Slot3_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_5.BorderSizePixel = 2
+Slot3_5.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_5.Font = Enum.Font.SourceSans
+Slot3_5.Text = ""
+Slot3_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_5.TextSize = 14.000
+
+Slot4_5.Name = "Slot4"
+Slot4_5.Parent = row5
+Slot4_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_5.BorderSizePixel = 2
+Slot4_5.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_5.Font = Enum.Font.SourceSans
+Slot4_5.Text = ""
+Slot4_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_5.TextSize = 14.000
+
+Slot5_5.Name = "Slot5"
+Slot5_5.Parent = row5
+Slot5_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_5.BorderSizePixel = 2
+Slot5_5.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_5.Font = Enum.Font.SourceSans
+Slot5_5.Text = ""
+Slot5_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_5.TextSize = 14.000
+
+Slot6_5.Name = "Slot6"
+Slot6_5.Parent = row5
+Slot6_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_5.BorderSizePixel = 2
+Slot6_5.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_5.Font = Enum.Font.SourceSans
+Slot6_5.Text = ""
+Slot6_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_5.TextSize = 14.000
+
+Slot7_5.Name = "Slot7"
+Slot7_5.Parent = row5
+Slot7_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_5.BorderSizePixel = 2
+Slot7_5.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_5.Font = Enum.Font.SourceSans
+Slot7_5.Text = ""
+Slot7_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_5.TextSize = 14.000
+
+Slot8_5.Name = "Slot8"
+Slot8_5.Parent = row5
+Slot8_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_5.BorderSizePixel = 2
+Slot8_5.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_5.Font = Enum.Font.SourceSans
+Slot8_5.Text = ""
+Slot8_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_5.TextSize = 14.000
+
+Slot9_5.Name = "Slot9"
+Slot9_5.Parent = row5
+Slot9_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_5.BorderSizePixel = 2
+Slot9_5.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_5.Font = Enum.Font.SourceSans
+Slot9_5.Text = ""
+Slot9_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_5.TextSize = 14.000
+
+Slot10_5.Name = "Slot10"
+Slot10_5.Parent = row5
+Slot10_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_5.BorderSizePixel = 2
+Slot10_5.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_5.Font = Enum.Font.SourceSans
+Slot10_5.Text = ""
+Slot10_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_5.TextSize = 14.000
+
+Slot11_5.Name = "Slot11"
+Slot11_5.Parent = row5
+Slot11_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_5.BorderSizePixel = 2
+Slot11_5.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_5.Font = Enum.Font.SourceSans
+Slot11_5.Text = ""
+Slot11_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_5.TextSize = 14.000
+
+Slot12_5.Name = "Slot12"
+Slot12_5.Parent = row5
+Slot12_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_5.BorderSizePixel = 2
+Slot12_5.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_5.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_5.Font = Enum.Font.SourceSans
+Slot12_5.Text = ""
+Slot12_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_5.TextSize = 14.000
+
+row6.Name = "row6"
+row6.Parent = Frame_2
+row6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row6.BackgroundTransparency = 1.000
+row6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row6.BorderSizePixel = 0
+row6.Position = UDim2.new(-0.00289549003, 0, 0.393344969, 0)
+row6.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_6.Name = "Slot1"
+Slot1_6.Parent = row6
+Slot1_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_6.BorderSizePixel = 2
+Slot1_6.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_6.Font = Enum.Font.SourceSans
+Slot1_6.Text = ""
+Slot1_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_6.TextSize = 14.000
+
+Slot2_6.Name = "Slot2"
+Slot2_6.Parent = row6
+Slot2_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_6.BorderSizePixel = 2
+Slot2_6.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_6.Font = Enum.Font.SourceSans
+Slot2_6.Text = ""
+Slot2_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_6.TextSize = 14.000
+
+Slot3_6.Name = "Slot3"
+Slot3_6.Parent = row6
+Slot3_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_6.BorderSizePixel = 2
+Slot3_6.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_6.Font = Enum.Font.SourceSans
+Slot3_6.Text = ""
+Slot3_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_6.TextSize = 14.000
+
+Slot4_6.Name = "Slot4"
+Slot4_6.Parent = row6
+Slot4_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_6.BorderSizePixel = 2
+Slot4_6.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_6.Font = Enum.Font.SourceSans
+Slot4_6.Text = ""
+Slot4_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_6.TextSize = 14.000
+
+Slot5_6.Name = "Slot5"
+Slot5_6.Parent = row6
+Slot5_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_6.BorderSizePixel = 2
+Slot5_6.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_6.Font = Enum.Font.SourceSans
+Slot5_6.Text = ""
+Slot5_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_6.TextSize = 14.000
+
+Slot6_6.Name = "Slot6"
+Slot6_6.Parent = row6
+Slot6_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_6.BorderSizePixel = 2
+Slot6_6.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_6.Font = Enum.Font.SourceSans
+Slot6_6.Text = ""
+Slot6_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_6.TextSize = 14.000
+
+Slot7_6.Name = "Slot7"
+Slot7_6.Parent = row6
+Slot7_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_6.BorderSizePixel = 2
+Slot7_6.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_6.Font = Enum.Font.SourceSans
+Slot7_6.Text = ""
+Slot7_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_6.TextSize = 14.000
+
+Slot8_6.Name = "Slot8"
+Slot8_6.Parent = row6
+Slot8_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_6.BorderSizePixel = 2
+Slot8_6.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_6.Font = Enum.Font.SourceSans
+Slot8_6.Text = ""
+Slot8_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_6.TextSize = 14.000
+
+Slot9_6.Name = "Slot9"
+Slot9_6.Parent = row6
+Slot9_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_6.BorderSizePixel = 2
+Slot9_6.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_6.Font = Enum.Font.SourceSans
+Slot9_6.Text = ""
+Slot9_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_6.TextSize = 14.000
+
+Slot10_6.Name = "Slot10"
+Slot10_6.Parent = row6
+Slot10_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_6.BorderSizePixel = 2
+Slot10_6.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_6.Font = Enum.Font.SourceSans
+Slot10_6.Text = ""
+Slot10_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_6.TextSize = 14.000
+
+Slot11_6.Name = "Slot11"
+Slot11_6.Parent = row6
+Slot11_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_6.BorderSizePixel = 2
+Slot11_6.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_6.Font = Enum.Font.SourceSans
+Slot11_6.Text = ""
+Slot11_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_6.TextSize = 14.000
+
+Slot12_6.Name = "Slot12"
+Slot12_6.Parent = row6
+Slot12_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_6.BorderSizePixel = 2
+Slot12_6.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_6.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_6.Font = Enum.Font.SourceSans
+Slot12_6.Text = ""
+Slot12_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_6.TextSize = 14.000
+
+row7.Name = "row7"
+row7.Parent = Frame_2
+row7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row7.BackgroundTransparency = 1.000
+row7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row7.BorderSizePixel = 0
+row7.Position = UDim2.new(-0.00289549003, 0, 0.469775468, 0)
+row7.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_7.Name = "Slot1"
+Slot1_7.Parent = row7
+Slot1_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_7.BorderSizePixel = 2
+Slot1_7.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_7.Font = Enum.Font.SourceSans
+Slot1_7.Text = ""
+Slot1_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_7.TextSize = 14.000
+
+Slot2_7.Name = "Slot2"
+Slot2_7.Parent = row7
+Slot2_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_7.BorderSizePixel = 2
+Slot2_7.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_7.Font = Enum.Font.SourceSans
+Slot2_7.Text = ""
+Slot2_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_7.TextSize = 14.000
+
+Slot3_7.Name = "Slot3"
+Slot3_7.Parent = row7
+Slot3_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_7.BorderSizePixel = 2
+Slot3_7.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_7.Font = Enum.Font.SourceSans
+Slot3_7.Text = ""
+Slot3_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_7.TextSize = 14.000
+
+Slot4_7.Name = "Slot4"
+Slot4_7.Parent = row7
+Slot4_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_7.BorderSizePixel = 2
+Slot4_7.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_7.Font = Enum.Font.SourceSans
+Slot4_7.Text = ""
+Slot4_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_7.TextSize = 14.000
+
+Slot5_7.Name = "Slot5"
+Slot5_7.Parent = row7
+Slot5_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_7.BorderSizePixel = 2
+Slot5_7.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_7.Font = Enum.Font.SourceSans
+Slot5_7.Text = ""
+Slot5_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_7.TextSize = 14.000
+
+Slot6_7.Name = "Slot6"
+Slot6_7.Parent = row7
+Slot6_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_7.BorderSizePixel = 2
+Slot6_7.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_7.Font = Enum.Font.SourceSans
+Slot6_7.Text = ""
+Slot6_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_7.TextSize = 14.000
+
+Slot7_7.Name = "Slot7"
+Slot7_7.Parent = row7
+Slot7_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_7.BorderSizePixel = 2
+Slot7_7.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_7.Font = Enum.Font.SourceSans
+Slot7_7.Text = ""
+Slot7_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_7.TextSize = 14.000
+
+Slot8_7.Name = "Slot8"
+Slot8_7.Parent = row7
+Slot8_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_7.BorderSizePixel = 2
+Slot8_7.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_7.Font = Enum.Font.SourceSans
+Slot8_7.Text = ""
+Slot8_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_7.TextSize = 14.000
+
+Slot9_7.Name = "Slot9"
+Slot9_7.Parent = row7
+Slot9_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_7.BorderSizePixel = 2
+Slot9_7.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_7.Font = Enum.Font.SourceSans
+Slot9_7.Text = ""
+Slot9_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_7.TextSize = 14.000
+
+Slot10_7.Name = "Slot10"
+Slot10_7.Parent = row7
+Slot10_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_7.BorderSizePixel = 2
+Slot10_7.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_7.Font = Enum.Font.SourceSans
+Slot10_7.Text = ""
+Slot10_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_7.TextSize = 14.000
+
+Slot11_7.Name = "Slot11"
+Slot11_7.Parent = row7
+Slot11_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_7.BorderSizePixel = 2
+Slot11_7.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_7.Font = Enum.Font.SourceSans
+Slot11_7.Text = ""
+Slot11_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_7.TextSize = 14.000
+
+Slot12_7.Name = "Slot12"
+Slot12_7.Parent = row7
+Slot12_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_7.BorderSizePixel = 2
+Slot12_7.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_7.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_7.Font = Enum.Font.SourceSans
+Slot12_7.Text = ""
+Slot12_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_7.TextSize = 14.000
+
+row8.Name = "row8"
+row8.Parent = Frame_2
+row8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row8.BackgroundTransparency = 1.000
+row8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row8.BorderSizePixel = 0
+row8.Position = UDim2.new(-0.00289549003, 0, 0.557124615, 0)
+row8.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_8.Name = "Slot1"
+Slot1_8.Parent = row8
+Slot1_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_8.BorderSizePixel = 2
+Slot1_8.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_8.Font = Enum.Font.SourceSans
+Slot1_8.Text = ""
+Slot1_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_8.TextSize = 14.000
+
+Slot2_8.Name = "Slot2"
+Slot2_8.Parent = row8
+Slot2_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_8.BorderSizePixel = 2
+Slot2_8.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_8.Font = Enum.Font.SourceSans
+Slot2_8.Text = ""
+Slot2_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_8.TextSize = 14.000
+
+Slot3_8.Name = "Slot3"
+Slot3_8.Parent = row8
+Slot3_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_8.BorderSizePixel = 2
+Slot3_8.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_8.Font = Enum.Font.SourceSans
+Slot3_8.Text = ""
+Slot3_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_8.TextSize = 14.000
+
+Slot4_8.Name = "Slot4"
+Slot4_8.Parent = row8
+Slot4_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_8.BorderSizePixel = 2
+Slot4_8.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_8.Font = Enum.Font.SourceSans
+Slot4_8.Text = ""
+Slot4_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_8.TextSize = 14.000
+
+Slot5_8.Name = "Slot5"
+Slot5_8.Parent = row8
+Slot5_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_8.BorderSizePixel = 2
+Slot5_8.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_8.Font = Enum.Font.SourceSans
+Slot5_8.Text = ""
+Slot5_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_8.TextSize = 14.000
+
+Slot6_8.Name = "Slot6"
+Slot6_8.Parent = row8
+Slot6_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_8.BorderSizePixel = 2
+Slot6_8.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_8.Font = Enum.Font.SourceSans
+Slot6_8.Text = ""
+Slot6_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_8.TextSize = 14.000
+
+Slot7_8.Name = "Slot7"
+Slot7_8.Parent = row8
+Slot7_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_8.BorderSizePixel = 2
+Slot7_8.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_8.Font = Enum.Font.SourceSans
+Slot7_8.Text = ""
+Slot7_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_8.TextSize = 14.000
+
+Slot8_8.Name = "Slot8"
+Slot8_8.Parent = row8
+Slot8_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_8.BorderSizePixel = 2
+Slot8_8.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_8.Font = Enum.Font.SourceSans
+Slot8_8.Text = ""
+Slot8_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_8.TextSize = 14.000
+
+Slot9_8.Name = "Slot9"
+Slot9_8.Parent = row8
+Slot9_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_8.BorderSizePixel = 2
+Slot9_8.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_8.Font = Enum.Font.SourceSans
+Slot9_8.Text = ""
+Slot9_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_8.TextSize = 14.000
+
+Slot10_8.Name = "Slot10"
+Slot10_8.Parent = row8
+Slot10_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_8.BorderSizePixel = 2
+Slot10_8.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_8.Font = Enum.Font.SourceSans
+Slot10_8.Text = ""
+Slot10_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_8.TextSize = 14.000
+
+Slot11_8.Name = "Slot11"
+Slot11_8.Parent = row8
+Slot11_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_8.BorderSizePixel = 2
+Slot11_8.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_8.Font = Enum.Font.SourceSans
+Slot11_8.Text = ""
+Slot11_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_8.TextSize = 14.000
+
+Slot12_8.Name = "Slot12"
+Slot12_8.Parent = row8
+Slot12_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_8.BorderSizePixel = 2
+Slot12_8.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_8.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_8.Font = Enum.Font.SourceSans
+Slot12_8.Text = ""
+Slot12_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_8.TextSize = 14.000
+
+row9.Name = "row9"
+row9.Parent = Frame_2
+row9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row9.BackgroundTransparency = 1.000
+row9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row9.BorderSizePixel = 0
+row9.Position = UDim2.new(-0.00289549003, 0, 0.644473553, 0)
+row9.Size = UDim2.new(1.17656374, 0, 0.135435149, 0)
+
+Slot1_9.Name = "Slot1"
+Slot1_9.Parent = row9
+Slot1_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_9.BorderSizePixel = 2
+Slot1_9.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_9.Font = Enum.Font.SourceSans
+Slot1_9.Text = ""
+Slot1_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_9.TextSize = 14.000
+
+Slot2_9.Name = "Slot2"
+Slot2_9.Parent = row9
+Slot2_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_9.BorderSizePixel = 2
+Slot2_9.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_9.Font = Enum.Font.SourceSans
+Slot2_9.Text = ""
+Slot2_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_9.TextSize = 14.000
+
+Slot3_9.Name = "Slot3"
+Slot3_9.Parent = row9
+Slot3_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_9.BorderSizePixel = 2
+Slot3_9.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_9.Font = Enum.Font.SourceSans
+Slot3_9.Text = ""
+Slot3_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_9.TextSize = 14.000
+
+Slot4_9.Name = "Slot4"
+Slot4_9.Parent = row9
+Slot4_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_9.BorderSizePixel = 2
+Slot4_9.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_9.Font = Enum.Font.SourceSans
+Slot4_9.Text = ""
+Slot4_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_9.TextSize = 14.000
+
+Slot5_9.Name = "Slot5"
+Slot5_9.Parent = row9
+Slot5_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_9.BorderSizePixel = 2
+Slot5_9.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_9.Font = Enum.Font.SourceSans
+Slot5_9.Text = ""
+Slot5_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_9.TextSize = 14.000
+
+Slot6_9.Name = "Slot6"
+Slot6_9.Parent = row9
+Slot6_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_9.BorderSizePixel = 2
+Slot6_9.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_9.Font = Enum.Font.SourceSans
+Slot6_9.Text = ""
+Slot6_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_9.TextSize = 14.000
+
+Slot7_9.Name = "Slot7"
+Slot7_9.Parent = row9
+Slot7_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_9.BorderSizePixel = 2
+Slot7_9.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_9.Font = Enum.Font.SourceSans
+Slot7_9.Text = ""
+Slot7_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_9.TextSize = 14.000
+
+Slot8_9.Name = "Slot8"
+Slot8_9.Parent = row9
+Slot8_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_9.BorderSizePixel = 2
+Slot8_9.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_9.Font = Enum.Font.SourceSans
+Slot8_9.Text = ""
+Slot8_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_9.TextSize = 14.000
+
+Slot9_9.Name = "Slot9"
+Slot9_9.Parent = row9
+Slot9_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_9.BorderSizePixel = 2
+Slot9_9.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_9.Font = Enum.Font.SourceSans
+Slot9_9.Text = ""
+Slot9_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_9.TextSize = 14.000
+
+Slot10_9.Name = "Slot10"
+Slot10_9.Parent = row9
+Slot10_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_9.BorderSizePixel = 2
+Slot10_9.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_9.Font = Enum.Font.SourceSans
+Slot10_9.Text = ""
+Slot10_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_9.TextSize = 14.000
+
+Slot11_9.Name = "Slot11"
+Slot11_9.Parent = row9
+Slot11_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_9.BorderSizePixel = 2
+Slot11_9.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_9.Font = Enum.Font.SourceSans
+Slot11_9.Text = ""
+Slot11_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_9.TextSize = 14.000
+
+Slot12_9.Name = "Slot12"
+Slot12_9.Parent = row9
+Slot12_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_9.BorderSizePixel = 2
+Slot12_9.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_9.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_9.Font = Enum.Font.SourceSans
+Slot12_9.Text = ""
+Slot12_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_9.TextSize = 14.000
+
+row10.Name = "row10"
+row10.Parent = Frame_2
+row10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row10.BackgroundTransparency = 1.000
+row10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row10.BorderSizePixel = 0
+row10.Position = UDim2.new(-0.00289549003, 0, 0.731822908, 0)
+row10.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_10.Name = "Slot1"
+Slot1_10.Parent = row10
+Slot1_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_10.BorderSizePixel = 2
+Slot1_10.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_10.Font = Enum.Font.SourceSans
+Slot1_10.Text = ""
+Slot1_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_10.TextSize = 14.000
+
+Slot2_10.Name = "Slot2"
+Slot2_10.Parent = row10
+Slot2_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_10.BorderSizePixel = 2
+Slot2_10.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_10.Font = Enum.Font.SourceSans
+Slot2_10.Text = ""
+Slot2_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_10.TextSize = 14.000
+
+Slot3_10.Name = "Slot3"
+Slot3_10.Parent = row10
+Slot3_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_10.BorderSizePixel = 2
+Slot3_10.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_10.Font = Enum.Font.SourceSans
+Slot3_10.Text = ""
+Slot3_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_10.TextSize = 14.000
+
+Slot4_10.Name = "Slot4"
+Slot4_10.Parent = row10
+Slot4_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_10.BorderSizePixel = 2
+Slot4_10.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_10.Font = Enum.Font.SourceSans
+Slot4_10.Text = ""
+Slot4_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_10.TextSize = 14.000
+
+Slot5_10.Name = "Slot5"
+Slot5_10.Parent = row10
+Slot5_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_10.BorderSizePixel = 2
+Slot5_10.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_10.Font = Enum.Font.SourceSans
+Slot5_10.Text = ""
+Slot5_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_10.TextSize = 14.000
+
+Slot6_10.Name = "Slot6"
+Slot6_10.Parent = row10
+Slot6_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_10.BorderSizePixel = 2
+Slot6_10.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_10.Font = Enum.Font.SourceSans
+Slot6_10.Text = ""
+Slot6_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_10.TextSize = 14.000
+
+Slot7_10.Name = "Slot7"
+Slot7_10.Parent = row10
+Slot7_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_10.BorderSizePixel = 2
+Slot7_10.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_10.Font = Enum.Font.SourceSans
+Slot7_10.Text = ""
+Slot7_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_10.TextSize = 14.000
+
+Slot8_10.Name = "Slot8"
+Slot8_10.Parent = row10
+Slot8_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_10.BorderSizePixel = 2
+Slot8_10.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_10.Font = Enum.Font.SourceSans
+Slot8_10.Text = ""
+Slot8_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_10.TextSize = 14.000
+
+Slot9_10.Name = "Slot9"
+Slot9_10.Parent = row10
+Slot9_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_10.BorderSizePixel = 2
+Slot9_10.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_10.Font = Enum.Font.SourceSans
+Slot9_10.Text = ""
+Slot9_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_10.TextSize = 14.000
+
+Slot10_10.Name = "Slot10"
+Slot10_10.Parent = row10
+Slot10_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_10.BorderSizePixel = 2
+Slot10_10.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_10.Font = Enum.Font.SourceSans
+Slot10_10.Text = ""
+Slot10_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_10.TextSize = 14.000
+
+Slot11_10.Name = "Slot11"
+Slot11_10.Parent = row10
+Slot11_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_10.BorderSizePixel = 2
+Slot11_10.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_10.Font = Enum.Font.SourceSans
+Slot11_10.Text = ""
+Slot11_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_10.TextSize = 14.000
+
+Slot12_10.Name = "Slot12"
+Slot12_10.Parent = row10
+Slot12_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_10.BorderSizePixel = 2
+Slot12_10.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_10.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_10.Font = Enum.Font.SourceSans
+Slot12_10.Text = ""
+Slot12_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_10.TextSize = 14.000
+
+row11.Name = "row11"
+row11.Parent = Frame_2
+row11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row11.BackgroundTransparency = 1.000
+row11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row11.BorderSizePixel = 0
+row11.Position = UDim2.new(-0.00289549003, 0, 0.819172025, 0)
+row11.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_11.Name = "Slot1"
+Slot1_11.Parent = row11
+Slot1_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_11.BorderSizePixel = 2
+Slot1_11.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_11.Font = Enum.Font.SourceSans
+Slot1_11.Text = ""
+Slot1_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_11.TextSize = 14.000
+
+Slot2_11.Name = "Slot2"
+Slot2_11.Parent = row11
+Slot2_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_11.BorderSizePixel = 2
+Slot2_11.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_11.Font = Enum.Font.SourceSans
+Slot2_11.Text = ""
+Slot2_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_11.TextSize = 14.000
+
+Slot3_11.Name = "Slot3"
+Slot3_11.Parent = row11
+Slot3_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_11.BorderSizePixel = 2
+Slot3_11.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_11.Font = Enum.Font.SourceSans
+Slot3_11.Text = ""
+Slot3_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_11.TextSize = 14.000
+
+Slot4_11.Name = "Slot4"
+Slot4_11.Parent = row11
+Slot4_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_11.BorderSizePixel = 2
+Slot4_11.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_11.Font = Enum.Font.SourceSans
+Slot4_11.Text = ""
+Slot4_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_11.TextSize = 14.000
+
+Slot5_11.Name = "Slot5"
+Slot5_11.Parent = row11
+Slot5_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_11.BorderSizePixel = 2
+Slot5_11.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_11.Font = Enum.Font.SourceSans
+Slot5_11.Text = ""
+Slot5_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_11.TextSize = 14.000
+
+Slot6_11.Name = "Slot6"
+Slot6_11.Parent = row11
+Slot6_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_11.BorderSizePixel = 2
+Slot6_11.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_11.Font = Enum.Font.SourceSans
+Slot6_11.Text = ""
+Slot6_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_11.TextSize = 14.000
+
+Slot7_11.Name = "Slot7"
+Slot7_11.Parent = row11
+Slot7_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_11.BorderSizePixel = 2
+Slot7_11.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_11.Font = Enum.Font.SourceSans
+Slot7_11.Text = ""
+Slot7_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_11.TextSize = 14.000
+
+Slot8_11.Name = "Slot8"
+Slot8_11.Parent = row11
+Slot8_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_11.BorderSizePixel = 2
+Slot8_11.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_11.Font = Enum.Font.SourceSans
+Slot8_11.Text = ""
+Slot8_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_11.TextSize = 14.000
+
+Slot9_11.Name = "Slot9"
+Slot9_11.Parent = row11
+Slot9_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_11.BorderSizePixel = 2
+Slot9_11.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_11.Font = Enum.Font.SourceSans
+Slot9_11.Text = ""
+Slot9_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_11.TextSize = 14.000
+
+Slot10_11.Name = "Slot10"
+Slot10_11.Parent = row11
+Slot10_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_11.BorderSizePixel = 2
+Slot10_11.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_11.Font = Enum.Font.SourceSans
+Slot10_11.Text = ""
+Slot10_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_11.TextSize = 14.000
+
+Slot11_11.Name = "Slot11"
+Slot11_11.Parent = row11
+Slot11_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_11.BorderSizePixel = 2
+Slot11_11.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_11.Font = Enum.Font.SourceSans
+Slot11_11.Text = ""
+Slot11_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_11.TextSize = 14.000
+
+Slot12_11.Name = "Slot12"
+Slot12_11.Parent = row11
+Slot12_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_11.BorderSizePixel = 2
+Slot12_11.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_11.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_11.Font = Enum.Font.SourceSans
+Slot12_11.Text = ""
+Slot12_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_11.TextSize = 14.000
+
+row12.Name = "row12"
+row12.Parent = Frame_2
+row12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+row12.BackgroundTransparency = 1.000
+row12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+row12.BorderSizePixel = 0
+row12.Position = UDim2.new(-0.00289549003, 0, 0.906521142, 0)
+row12.Size = UDim2.new(1.17656374, 0, 0.13543506, 0)
+
+Slot1_12.Name = "Slot1"
+Slot1_12.Parent = row12
+Slot1_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot1_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_12.BorderSizePixel = 2
+Slot1_12.Position = UDim2.new(0.00400000019, 0, 0.0439999998, 0)
+Slot1_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot1_12.Font = Enum.Font.SourceSans
+Slot1_12.Text = ""
+Slot1_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot1_12.TextSize = 14.000
+
+Slot2_12.Name = "Slot2"
+Slot2_12.Parent = row12
+Slot2_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot2_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_12.BorderSizePixel = 2
+Slot2_12.Position = UDim2.new(0.0799999982, 0, 0.0439999998, 0)
+Slot2_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot2_12.Font = Enum.Font.SourceSans
+Slot2_12.Text = ""
+Slot2_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot2_12.TextSize = 14.000
+
+Slot3_12.Name = "Slot3"
+Slot3_12.Parent = row12
+Slot3_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot3_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_12.BorderSizePixel = 2
+Slot3_12.Position = UDim2.new(0.150000006, 0, 0.0439999998, 0)
+Slot3_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot3_12.Font = Enum.Font.SourceSans
+Slot3_12.Text = ""
+Slot3_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot3_12.TextSize = 14.000
+
+Slot4_12.Name = "Slot4"
+Slot4_12.Parent = row12
+Slot4_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot4_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_12.BorderSizePixel = 2
+Slot4_12.Position = UDim2.new(0.219999999, 0, 0.0439999998, 0)
+Slot4_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot4_12.Font = Enum.Font.SourceSans
+Slot4_12.Text = ""
+Slot4_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot4_12.TextSize = 14.000
+
+Slot5_12.Name = "Slot5"
+Slot5_12.Parent = row12
+Slot5_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot5_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_12.BorderSizePixel = 2
+Slot5_12.Position = UDim2.new(0.289999992, 0, 0.0439999998, 0)
+Slot5_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot5_12.Font = Enum.Font.SourceSans
+Slot5_12.Text = ""
+Slot5_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot5_12.TextSize = 14.000
+
+Slot6_12.Name = "Slot6"
+Slot6_12.Parent = row12
+Slot6_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot6_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_12.BorderSizePixel = 2
+Slot6_12.Position = UDim2.new(0.360000014, 0, 0.0439999998, 0)
+Slot6_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot6_12.Font = Enum.Font.SourceSans
+Slot6_12.Text = ""
+Slot6_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot6_12.TextSize = 14.000
+
+Slot7_12.Name = "Slot7"
+Slot7_12.Parent = row12
+Slot7_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot7_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_12.BorderSizePixel = 2
+Slot7_12.Position = UDim2.new(0.430000007, 0, 0.0439999998, 0)
+Slot7_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot7_12.Font = Enum.Font.SourceSans
+Slot7_12.Text = ""
+Slot7_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot7_12.TextSize = 14.000
+
+Slot8_12.Name = "Slot8"
+Slot8_12.Parent = row12
+Slot8_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot8_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_12.BorderSizePixel = 2
+Slot8_12.Position = UDim2.new(0.5, 0, 0.0439999998, 0)
+Slot8_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot8_12.Font = Enum.Font.SourceSans
+Slot8_12.Text = ""
+Slot8_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot8_12.TextSize = 14.000
+
+Slot9_12.Name = "Slot9"
+Slot9_12.Parent = row12
+Slot9_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot9_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_12.BorderSizePixel = 2
+Slot9_12.Position = UDim2.new(0.569999993, 0, 0.0439999998, 0)
+Slot9_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot9_12.Font = Enum.Font.SourceSans
+Slot9_12.Text = ""
+Slot9_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot9_12.TextSize = 14.000
+
+Slot10_12.Name = "Slot10"
+Slot10_12.Parent = row12
+Slot10_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot10_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_12.BorderSizePixel = 2
+Slot10_12.Position = UDim2.new(0.639999986, 0, 0.0439999998, 0)
+Slot10_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot10_12.Font = Enum.Font.SourceSans
+Slot10_12.Text = ""
+Slot10_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot10_12.TextSize = 14.000
+
+Slot11_12.Name = "Slot11"
+Slot11_12.Parent = row12
+Slot11_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot11_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_12.BorderSizePixel = 2
+Slot11_12.Position = UDim2.new(0.709999979, 0, 0.0439999998, 0)
+Slot11_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot11_12.Font = Enum.Font.SourceSans
+Slot11_12.Text = ""
+Slot11_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot11_12.TextSize = 14.000
+
+Slot12_12.Name = "Slot12"
+Slot12_12.Parent = row12
+Slot12_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot12_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_12.BorderSizePixel = 2
+Slot12_12.Position = UDim2.new(0.779999971, 0, 0.0439999998, 0)
+Slot12_12.Size = UDim2.new(0.0700000003, 0, 0.600000024, 0)
+Slot12_12.Font = Enum.Font.SourceSans
+Slot12_12.Text = ""
+Slot12_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot12_12.TextSize = 14.000
+
+UIAspectRatioConstraint_3.Parent = Frame_2
+UIAspectRatioConstraint_3.AspectRatio = 0.870
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(42, 39, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 247, 0)
+TextButton_2.BorderSizePixel = 2
+TextButton_2.Position = UDim2.new(0.332388133, 0, 0.697228253, 0)
+TextButton_2.Size = UDim2.new(0.3188667, 0, 0.0498262309, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Clear"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 247, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UIAspectRatioConstraint_4.Parent = TextButton_2
+UIAspectRatioConstraint_4.AspectRatio = 4.156
+
+UIAspectRatioConstraint_5.Parent = Frame
+UIAspectRatioConstraint_5.AspectRatio = 0.589
 
 -- Scripts:
 
-local function JLCZLTT_fake_script() -- YeTechDrawGui.TextButton.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.TextButton)
+local function NRDQPS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
 
-	-- Reference the button
 	local button = script.Parent
-	
-	-- Function to send chat messages for multiple rows of slots
 	local function sendMessage()
-		-- Reference the parent frame containing all the rows (row1, row2, row3, ..., row10)
 		local frame = script.Parent.Parent.Frame
-	
-		-- Iterate over the rows (row1, row2, row3, ..., row10)
 		for _, row in ipairs(frame:GetChildren()) do
-			-- Check if the row is one of the 10 rows (row1, row2, ..., row10)
 			if row:IsA("Frame") and row.Name:match("row%d") then
 				local message = ""
-	
-				-- Create a table to store the slots in this row
 				local slots = {}
-	
-				-- Iterate over all children in the row and collect the slots (named Slot1, Slot2, ..., Slot10)
 				for _, slot in ipairs(row:GetChildren()) do
-					-- Check if the child is a slot (named Slot1, Slot2, ..., Slot10)
 					if slot:IsA("GuiObject") and slot.Name:match("Slot%d+") then
 						table.insert(slots, slot) -- Add slot to the table
 					end
 				end
-	
-				-- Sort the slots by their names to make sure they are in the correct order (Slot1, Slot2, ..., Slot10)
 				table.sort(slots, function(a, b)
 					return tonumber(a.Name:match("Slot(%d+)")) < tonumber(b.Name:match("Slot(%d+)"))
 				end)
-	
-				-- Build the message based on the colors of the slots
 				for _, slot in ipairs(slots) do
 					if slot.BackgroundColor3 == Color3.fromRGB(0, 0, 0) then
 						message = message .. "⬛" -- Add black square to the message
-					else
+					elseif slot.BackgroundColor3 == Color3.fromRGB(255, 255, 255) then
 						message = message .. "⬜" -- Add white square to the message
+					elseif slot.BackgroundColor3 == Color3.fromRGB(255, 0, 0) then
+						message = message .. "📕" -- Add red book emoji to the message
+					elseif slot.BackgroundColor3 == Color3.fromRGB(255, 165, 0) then
+						message = message .. "📒" -- Add yellow book emoji to the message
+					elseif slot.BackgroundColor3 == Color3.fromRGB(0, 255, 0) then
+						message = message .. "📗" -- Add green book emoji to the message
 					end
 				end
-	
-				-- If we have exactly 10 slots in this row, send the message
-				if #slots == 10 then
-					-- Access the TextChatService
+				if #slots == 12 then
 					local textChatService = game:GetService("TextChatService")
 					local chatChannel = textChatService.TextChannels:FindFirstChild("RBXGeneral") -- Default chat channel
-	
 					if chatChannel then
-						-- Send the message to the chat
 						chatChannel:SendAsync(message)
 					else
 						warn("Chat channel 'RBXGeneral' not found. Make sure TextChatService is properly set up.")
 					end
 				else
-					warn("Row does not contain exactly 10 slots.")
+					warn("Row does not contain exactly 15 slots.")
 				end
-	
-				-- Wait 0.1 seconds before moving on to the next row
 				wait(0.1)
 			end
 		end
 	end
-	
-	-- Connect the function to the button click
 	button.MouseButton1Click:Connect(sendMessage)
-	
 end
-coroutine.wrap(JLCZLTT_fake_script)()
-local function CBZN_fake_script() -- YeTechDrawGui.Slot1.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1)
+coroutine.wrap(NRDQPS_fake_script)()
+local function DAQMGPK_fake_script() -- Slot1.LocalScript 
+	local script = Instance.new('LocalScript', Slot1)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(CBZN_fake_script)()
-local function LLNXQXQ_fake_script() -- YeTechDrawGui.Slot2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2)
+coroutine.wrap(DAQMGPK_fake_script)()
+local function WIKUK_fake_script() -- Slot2.LocalScript 
+	local script = Instance.new('LocalScript', Slot2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(LLNXQXQ_fake_script)()
-local function SXVHF_fake_script() -- YeTechDrawGui.Slot3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3)
+coroutine.wrap(WIKUK_fake_script)()
+local function NMEBLCE_fake_script() -- Slot3.LocalScript 
+	local script = Instance.new('LocalScript', Slot3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(SXVHF_fake_script)()
-local function RUMOJW_fake_script() -- YeTechDrawGui.Slot4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4)
+coroutine.wrap(NMEBLCE_fake_script)()
+local function ATEBDH_fake_script() -- Slot4.LocalScript 
+	local script = Instance.new('LocalScript', Slot4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(RUMOJW_fake_script)()
-local function IRIT_fake_script() -- YeTechDrawGui.Slot5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5)
+coroutine.wrap(ATEBDH_fake_script)()
+local function EBXX_fake_script() -- Slot5.LocalScript 
+	local script = Instance.new('LocalScript', Slot5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(IRIT_fake_script)()
-local function IHXPVLS_fake_script() -- YeTechDrawGui.Slot6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6)
+coroutine.wrap(EBXX_fake_script)()
+local function UBSOM_fake_script() -- Slot6.LocalScript 
+	local script = Instance.new('LocalScript', Slot6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(IHXPVLS_fake_script)()
-local function NRVYEBB_fake_script() -- YeTechDrawGui.Slot7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7)
+coroutine.wrap(UBSOM_fake_script)()
+local function ESVN_fake_script() -- Slot7.LocalScript 
+	local script = Instance.new('LocalScript', Slot7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(NRVYEBB_fake_script)()
-local function CNQXGYM_fake_script() -- YeTechDrawGui.Slot8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8)
+coroutine.wrap(ESVN_fake_script)()
+local function JNLOF_fake_script() -- Slot8.LocalScript 
+	local script = Instance.new('LocalScript', Slot8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(CNQXGYM_fake_script)()
-local function ARUPST_fake_script() -- YeTechDrawGui.Slot9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9)
+coroutine.wrap(JNLOF_fake_script)()
+local function QOUB_fake_script() -- Slot9.LocalScript 
+	local script = Instance.new('LocalScript', Slot9)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(ARUPST_fake_script)()
-local function SZAX_fake_script() -- YeTechDrawGui.Slot10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10)
+coroutine.wrap(QOUB_fake_script)()
+local function LLWZXK_fake_script() -- Slot10.LocalScript 
+	local script = Instance.new('LocalScript', Slot10)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(SZAX_fake_script)()
-local function TWMQE_fake_script() -- YeTechDrawGui.Slot1_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_2)
+coroutine.wrap(LLWZXK_fake_script)()
+local function ZOSCSX_fake_script() -- Slot11.LocalScript 
+	local script = Instance.new('LocalScript', Slot11)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(TWMQE_fake_script)()
-local function OTDV_fake_script() -- YeTechDrawGui.Slot2_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_2)
+coroutine.wrap(ZOSCSX_fake_script)()
+local function CWHY_fake_script() -- Slot12.LocalScript 
+	local script = Instance.new('LocalScript', Slot12)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(OTDV_fake_script)()
-local function EIKIF_fake_script() -- YeTechDrawGui.Slot3_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_2)
+coroutine.wrap(CWHY_fake_script)()
+local function IURN_fake_script() -- Slot1_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EIKIF_fake_script)()
-local function EKYQ_fake_script() -- YeTechDrawGui.Slot4_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_2)
+coroutine.wrap(IURN_fake_script)()
+local function OXHMHFN_fake_script() -- Slot2_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EKYQ_fake_script)()
-local function CPNR_fake_script() -- YeTechDrawGui.Slot5_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_2)
+coroutine.wrap(OXHMHFN_fake_script)()
+local function LWHZ_fake_script() -- Slot3_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(CPNR_fake_script)()
-local function QQSBHP_fake_script() -- YeTechDrawGui.Slot6_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_2)
+coroutine.wrap(LWHZ_fake_script)()
+local function SDRS_fake_script() -- Slot4_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(QQSBHP_fake_script)()
-local function QSVB_fake_script() -- YeTechDrawGui.Slot7_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_2)
+coroutine.wrap(SDRS_fake_script)()
+local function BQTI_fake_script() -- Slot5_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(QSVB_fake_script)()
-local function FLQCMBY_fake_script() -- YeTechDrawGui.Slot8_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_2)
+coroutine.wrap(BQTI_fake_script)()
+local function CBSFT_fake_script() -- Slot6_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FLQCMBY_fake_script)()
-local function BEJO_fake_script() -- YeTechDrawGui.Slot9_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_2)
+coroutine.wrap(CBSFT_fake_script)()
+local function OKRND_fake_script() -- Slot7_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(BEJO_fake_script)()
-local function BECWWKN_fake_script() -- YeTechDrawGui.Slot10_2.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_2)
+coroutine.wrap(OKRND_fake_script)()
+local function HYKQMY_fake_script() -- Slot8_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(BECWWKN_fake_script)()
-local function TCLF_fake_script() -- YeTechDrawGui.Slot1_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_3)
+coroutine.wrap(HYKQMY_fake_script)()
+local function CWWGDC_fake_script() -- Slot9_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(TCLF_fake_script)()
-local function WKGXAN_fake_script() -- YeTechDrawGui.Slot2_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_3)
+coroutine.wrap(CWWGDC_fake_script)()
+local function UCYGK_fake_script() -- Slot10_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(WKGXAN_fake_script)()
-local function IAQLQZC_fake_script() -- YeTechDrawGui.Slot3_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_3)
+coroutine.wrap(UCYGK_fake_script)()
+local function BLUTXO_fake_script() -- Slot11_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(IAQLQZC_fake_script)()
-local function JEOZZEH_fake_script() -- YeTechDrawGui.Slot4_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_3)
+coroutine.wrap(BLUTXO_fake_script)()
+local function VUZNNDT_fake_script() -- Slot12_2.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_2)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(JEOZZEH_fake_script)()
-local function RMICHWL_fake_script() -- YeTechDrawGui.Slot5_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_3)
+coroutine.wrap(VUZNNDT_fake_script)()
+local function AIRLO_fake_script() -- Slot1_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(RMICHWL_fake_script)()
-local function FRQAB_fake_script() -- YeTechDrawGui.Slot6_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_3)
+coroutine.wrap(AIRLO_fake_script)()
+local function OABTIL_fake_script() -- Slot2_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FRQAB_fake_script)()
-local function JIAT_fake_script() -- YeTechDrawGui.Slot7_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_3)
+coroutine.wrap(OABTIL_fake_script)()
+local function RJQGAHS_fake_script() -- Slot3_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(JIAT_fake_script)()
-local function SBBWMZD_fake_script() -- YeTechDrawGui.Slot8_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_3)
+coroutine.wrap(RJQGAHS_fake_script)()
+local function DXFQFQ_fake_script() -- Slot4_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(SBBWMZD_fake_script)()
-local function WTCLZQ_fake_script() -- YeTechDrawGui.Slot9_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_3)
+coroutine.wrap(DXFQFQ_fake_script)()
+local function FOVWXG_fake_script() -- Slot5_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(WTCLZQ_fake_script)()
-local function PVNWA_fake_script() -- YeTechDrawGui.Slot10_3.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_3)
+coroutine.wrap(FOVWXG_fake_script)()
+local function EPAJQYO_fake_script() -- Slot6_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(PVNWA_fake_script)()
-local function ZMQZTRC_fake_script() -- YeTechDrawGui.Slot1_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_4)
+coroutine.wrap(EPAJQYO_fake_script)()
+local function GIYPC_fake_script() -- Slot7_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(ZMQZTRC_fake_script)()
-local function ADEONPI_fake_script() -- YeTechDrawGui.Slot2_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_4)
+coroutine.wrap(GIYPC_fake_script)()
+local function KRVCZV_fake_script() -- Slot8_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(ADEONPI_fake_script)()
-local function YUPFCRM_fake_script() -- YeTechDrawGui.Slot3_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_4)
+coroutine.wrap(KRVCZV_fake_script)()
+local function ZUUP_fake_script() -- Slot9_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(YUPFCRM_fake_script)()
-local function IIHSOA_fake_script() -- YeTechDrawGui.Slot4_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_4)
+coroutine.wrap(ZUUP_fake_script)()
+local function TIPBFL_fake_script() -- Slot10_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(IIHSOA_fake_script)()
-local function QJPNXL_fake_script() -- YeTechDrawGui.Slot5_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_4)
+coroutine.wrap(TIPBFL_fake_script)()
+local function DETDCNY_fake_script() -- Slot11_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(QJPNXL_fake_script)()
-local function PXLJH_fake_script() -- YeTechDrawGui.Slot6_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_4)
+coroutine.wrap(DETDCNY_fake_script)()
+local function WCSDDQH_fake_script() -- Slot12_3.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_3)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(PXLJH_fake_script)()
-local function JUAKKS_fake_script() -- YeTechDrawGui.Slot7_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_4)
+coroutine.wrap(WCSDDQH_fake_script)()
+local function YAGSUCD_fake_script() -- Slot1_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(JUAKKS_fake_script)()
-local function DTIS_fake_script() -- YeTechDrawGui.Slot8_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_4)
+coroutine.wrap(YAGSUCD_fake_script)()
+local function NOAM_fake_script() -- Slot2_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(DTIS_fake_script)()
-local function OEWWQ_fake_script() -- YeTechDrawGui.Slot9_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_4)
+coroutine.wrap(NOAM_fake_script)()
+local function LFOVZ_fake_script() -- Slot3_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(OEWWQ_fake_script)()
-local function FOLECU_fake_script() -- YeTechDrawGui.Slot10_4.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_4)
+coroutine.wrap(LFOVZ_fake_script)()
+local function DRRGDU_fake_script() -- Slot4_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FOLECU_fake_script)()
-local function MFBB_fake_script() -- YeTechDrawGui.Slot1_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_5)
+coroutine.wrap(DRRGDU_fake_script)()
+local function EKZD_fake_script() -- Slot5_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(MFBB_fake_script)()
-local function PTHKC_fake_script() -- YeTechDrawGui.Slot2_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_5)
+coroutine.wrap(EKZD_fake_script)()
+local function NEZZA_fake_script() -- Slot6_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(PTHKC_fake_script)()
-local function NPGRMF_fake_script() -- YeTechDrawGui.Slot3_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_5)
+coroutine.wrap(NEZZA_fake_script)()
+local function XFDXR_fake_script() -- Slot7_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(NPGRMF_fake_script)()
-local function YDATAKZ_fake_script() -- YeTechDrawGui.Slot4_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_5)
+coroutine.wrap(XFDXR_fake_script)()
+local function XOHSR_fake_script() -- Slot8_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(YDATAKZ_fake_script)()
-local function KRAJKK_fake_script() -- YeTechDrawGui.Slot5_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_5)
+coroutine.wrap(XOHSR_fake_script)()
+local function UVETQDH_fake_script() -- Slot9_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(KRAJKK_fake_script)()
-local function RDLLP_fake_script() -- YeTechDrawGui.Slot6_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_5)
+coroutine.wrap(UVETQDH_fake_script)()
+local function YNWTD_fake_script() -- Slot10_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(RDLLP_fake_script)()
-local function EJNIMTN_fake_script() -- YeTechDrawGui.Slot7_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_5)
+coroutine.wrap(YNWTD_fake_script)()
+local function LGCPV_fake_script() -- Slot11_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EJNIMTN_fake_script)()
-local function MICHRJX_fake_script() -- YeTechDrawGui.Slot8_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_5)
+coroutine.wrap(LGCPV_fake_script)()
+local function BPYMYE_fake_script() -- Slot12_4.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_4)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(MICHRJX_fake_script)()
-local function EMDMVI_fake_script() -- YeTechDrawGui.Slot9_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_5)
+coroutine.wrap(BPYMYE_fake_script)()
+local function SWXCVLN_fake_script() -- Slot1_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EMDMVI_fake_script)()
-local function NKEZU_fake_script() -- YeTechDrawGui.Slot10_5.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_5)
+coroutine.wrap(SWXCVLN_fake_script)()
+local function TCZK_fake_script() -- Slot2_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(NKEZU_fake_script)()
-local function WZCOQ_fake_script() -- YeTechDrawGui.Slot1_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_6)
+coroutine.wrap(TCZK_fake_script)()
+local function COOOTKW_fake_script() -- Slot3_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(WZCOQ_fake_script)()
-local function LEWNGDX_fake_script() -- YeTechDrawGui.Slot2_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_6)
+coroutine.wrap(COOOTKW_fake_script)()
+local function HDFYNL_fake_script() -- Slot4_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(LEWNGDX_fake_script)()
-local function PMGCC_fake_script() -- YeTechDrawGui.Slot3_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_6)
+coroutine.wrap(HDFYNL_fake_script)()
+local function JQYKJ_fake_script() -- Slot5_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(PMGCC_fake_script)()
-local function HSAY_fake_script() -- YeTechDrawGui.Slot4_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_6)
+coroutine.wrap(JQYKJ_fake_script)()
+local function OYVZQ_fake_script() -- Slot6_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(HSAY_fake_script)()
-local function EJFJ_fake_script() -- YeTechDrawGui.Slot5_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_6)
+coroutine.wrap(OYVZQ_fake_script)()
+local function UXIECHF_fake_script() -- Slot7_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EJFJ_fake_script)()
-local function DRONYYI_fake_script() -- YeTechDrawGui.Slot6_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_6)
+coroutine.wrap(UXIECHF_fake_script)()
+local function ERLNO_fake_script() -- Slot8_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(DRONYYI_fake_script)()
-local function FEOM_fake_script() -- YeTechDrawGui.Slot7_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_6)
+coroutine.wrap(ERLNO_fake_script)()
+local function DSSEBGI_fake_script() -- Slot9_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FEOM_fake_script)()
-local function ONNL_fake_script() -- YeTechDrawGui.Slot8_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_6)
+coroutine.wrap(DSSEBGI_fake_script)()
+local function LVECIF_fake_script() -- Slot10_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(ONNL_fake_script)()
-local function FNUQDPD_fake_script() -- YeTechDrawGui.Slot9_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_6)
+coroutine.wrap(LVECIF_fake_script)()
+local function UPWSI_fake_script() -- Slot11_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FNUQDPD_fake_script)()
-local function TNYEIOY_fake_script() -- YeTechDrawGui.Slot10_6.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_6)
+coroutine.wrap(UPWSI_fake_script)()
+local function XVUXBEL_fake_script() -- Slot12_5.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_5)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(TNYEIOY_fake_script)()
-local function DJEGHU_fake_script() -- YeTechDrawGui.Slot1_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_7)
+coroutine.wrap(XVUXBEL_fake_script)()
+local function UFDUZ_fake_script() -- Slot1_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(DJEGHU_fake_script)()
-local function KSSZQ_fake_script() -- YeTechDrawGui.Slot2_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_7)
+coroutine.wrap(UFDUZ_fake_script)()
+local function IYAR_fake_script() -- Slot2_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(KSSZQ_fake_script)()
-local function AEPRBI_fake_script() -- YeTechDrawGui.Slot3_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_7)
+coroutine.wrap(IYAR_fake_script)()
+local function GUNJOAR_fake_script() -- Slot3_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(AEPRBI_fake_script)()
-local function TOBYABO_fake_script() -- YeTechDrawGui.Slot4_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_7)
+coroutine.wrap(GUNJOAR_fake_script)()
+local function CVQH_fake_script() -- Slot4_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(TOBYABO_fake_script)()
-local function LCYH_fake_script() -- YeTechDrawGui.Slot5_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_7)
+coroutine.wrap(CVQH_fake_script)()
+local function DNJPO_fake_script() -- Slot5_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(LCYH_fake_script)()
-local function CKWV_fake_script() -- YeTechDrawGui.Slot6_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_7)
+coroutine.wrap(DNJPO_fake_script)()
+local function QVOT_fake_script() -- Slot6_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(CKWV_fake_script)()
-local function VEASCN_fake_script() -- YeTechDrawGui.Slot7_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_7)
+coroutine.wrap(QVOT_fake_script)()
+local function YHJO_fake_script() -- Slot7_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(VEASCN_fake_script)()
-local function PUEY_fake_script() -- YeTechDrawGui.Slot8_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_7)
+coroutine.wrap(YHJO_fake_script)()
+local function RHYF_fake_script() -- Slot8_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(PUEY_fake_script)()
-local function EMMP_fake_script() -- YeTechDrawGui.Slot9_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_7)
+coroutine.wrap(RHYF_fake_script)()
+local function MFTYVPO_fake_script() -- Slot9_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EMMP_fake_script)()
-local function MTOV_fake_script() -- YeTechDrawGui.Slot10_7.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_7)
+coroutine.wrap(MFTYVPO_fake_script)()
+local function XTVHO_fake_script() -- Slot10_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(MTOV_fake_script)()
-local function PUZDH_fake_script() -- YeTechDrawGui.Slot1_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_8)
+coroutine.wrap(XTVHO_fake_script)()
+local function EWKNS_fake_script() -- Slot11_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(PUZDH_fake_script)()
-local function FULHTWM_fake_script() -- YeTechDrawGui.Slot2_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_8)
+coroutine.wrap(EWKNS_fake_script)()
+local function ACMU_fake_script() -- Slot12_6.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_6)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FULHTWM_fake_script)()
-local function GIERID_fake_script() -- YeTechDrawGui.Slot3_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_8)
+coroutine.wrap(ACMU_fake_script)()
+local function GFUBE_fake_script() -- Slot1_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(GIERID_fake_script)()
-local function FGABU_fake_script() -- YeTechDrawGui.Slot4_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_8)
+coroutine.wrap(GFUBE_fake_script)()
+local function GXFWNR_fake_script() -- Slot2_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FGABU_fake_script)()
-local function POOLMFQ_fake_script() -- YeTechDrawGui.Slot5_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_8)
+coroutine.wrap(GXFWNR_fake_script)()
+local function WCOO_fake_script() -- Slot3_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(POOLMFQ_fake_script)()
-local function KOZEXU_fake_script() -- YeTechDrawGui.Slot6_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_8)
+coroutine.wrap(WCOO_fake_script)()
+local function RXHOY_fake_script() -- Slot4_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(KOZEXU_fake_script)()
-local function XMTM_fake_script() -- YeTechDrawGui.Slot7_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_8)
+coroutine.wrap(RXHOY_fake_script)()
+local function UIRNXDP_fake_script() -- Slot5_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(XMTM_fake_script)()
-local function MEOCWT_fake_script() -- YeTechDrawGui.Slot8_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_8)
+coroutine.wrap(UIRNXDP_fake_script)()
+local function ZNSCAJ_fake_script() -- Slot6_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(MEOCWT_fake_script)()
-local function UASLQ_fake_script() -- YeTechDrawGui.Slot9_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_8)
+coroutine.wrap(ZNSCAJ_fake_script)()
+local function DORGGZ_fake_script() -- Slot7_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(UASLQ_fake_script)()
-local function WTZCP_fake_script() -- YeTechDrawGui.Slot10_8.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_8)
+coroutine.wrap(DORGGZ_fake_script)()
+local function PDIQWFW_fake_script() -- Slot8_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(WTZCP_fake_script)()
-local function DQQR_fake_script() -- YeTechDrawGui.Slot1_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_9)
+coroutine.wrap(PDIQWFW_fake_script)()
+local function FDPX_fake_script() -- Slot9_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(DQQR_fake_script)()
-local function GKYOXN_fake_script() -- YeTechDrawGui.Slot2_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_9)
+coroutine.wrap(FDPX_fake_script)()
+local function UDWRFEA_fake_script() -- Slot10_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(GKYOXN_fake_script)()
-local function AJQLA_fake_script() -- YeTechDrawGui.Slot3_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_9)
+coroutine.wrap(UDWRFEA_fake_script)()
+local function TJQDN_fake_script() -- Slot11_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(AJQLA_fake_script)()
-local function CZPIQ_fake_script() -- YeTechDrawGui.Slot4_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_9)
+coroutine.wrap(TJQDN_fake_script)()
+local function QFQB_fake_script() -- Slot12_7.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_7)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(CZPIQ_fake_script)()
-local function RSYQUV_fake_script() -- YeTechDrawGui.Slot5_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_9)
+coroutine.wrap(QFQB_fake_script)()
+local function WKQZYA_fake_script() -- Slot1_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(RSYQUV_fake_script)()
-local function VMVKO_fake_script() -- YeTechDrawGui.Slot6_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_9)
+coroutine.wrap(WKQZYA_fake_script)()
+local function DYLHK_fake_script() -- Slot2_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(VMVKO_fake_script)()
-local function KYYF_fake_script() -- YeTechDrawGui.Slot7_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_9)
+coroutine.wrap(DYLHK_fake_script)()
+local function HRGV_fake_script() -- Slot3_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(KYYF_fake_script)()
-local function HWHL_fake_script() -- YeTechDrawGui.Slot8_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_9)
+coroutine.wrap(HRGV_fake_script)()
+local function IMVT_fake_script() -- Slot4_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(HWHL_fake_script)()
-local function GIEOE_fake_script() -- YeTechDrawGui.Slot9_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_9)
+coroutine.wrap(IMVT_fake_script)()
+local function JCYATE_fake_script() -- Slot5_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(GIEOE_fake_script)()
-local function MYMQ_fake_script() -- YeTechDrawGui.Slot10_9.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_9)
+coroutine.wrap(JCYATE_fake_script)()
+local function ZIIKG_fake_script() -- Slot6_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(MYMQ_fake_script)()
-local function RBGBYV_fake_script() -- YeTechDrawGui.Slot1_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot1_10)
+coroutine.wrap(ZIIKG_fake_script)()
+local function UGHZNK_fake_script() -- Slot7_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(RBGBYV_fake_script)()
-local function RMZALGH_fake_script() -- YeTechDrawGui.Slot2_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot2_10)
+coroutine.wrap(UGHZNK_fake_script)()
+local function NKWUQ_fake_script() -- Slot8_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(RMZALGH_fake_script)()
-local function FAOOFE_fake_script() -- YeTechDrawGui.Slot3_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot3_10)
+coroutine.wrap(NKWUQ_fake_script)()
+local function ISEZSRK_fake_script() -- Slot9_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(FAOOFE_fake_script)()
-local function LEFQD_fake_script() -- YeTechDrawGui.Slot4_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot4_10)
+coroutine.wrap(ISEZSRK_fake_script)()
+local function SNRLQP_fake_script() -- Slot10_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(LEFQD_fake_script)()
-local function DLGFB_fake_script() -- YeTechDrawGui.Slot5_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot5_10)
+coroutine.wrap(SNRLQP_fake_script)()
+local function DZHBNOJ_fake_script() -- Slot11_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(DLGFB_fake_script)()
-local function DPWKUAL_fake_script() -- YeTechDrawGui.Slot6_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot6_10)
+coroutine.wrap(DZHBNOJ_fake_script)()
+local function EITD_fake_script() -- Slot12_8.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_8)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(DPWKUAL_fake_script)()
-local function EPZTLBC_fake_script() -- YeTechDrawGui.Slot7_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot7_10)
+coroutine.wrap(EITD_fake_script)()
+local function FXHEWR_fake_script() -- Slot1_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_9)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(EPZTLBC_fake_script)()
-local function AYKVB_fake_script() -- YeTechDrawGui.Slot8_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot8_10)
+coroutine.wrap(FXHEWR_fake_script)()
+local function NAEIEGF_fake_script() -- Slot2_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_9)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(AYKVB_fake_script)()
-local function WKQIHRG_fake_script() -- YeTechDrawGui.Slot9_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot9_10)
+coroutine.wrap(NAEIEGF_fake_script)()
+local function FHZTT_fake_script() -- Slot3_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_9)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(WKQIHRG_fake_script)()
-local function VXSKHHH_fake_script() -- YeTechDrawGui.Slot10_10.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.Slot10_10)
+coroutine.wrap(FHZTT_fake_script)()
+local function RBQA_fake_script() -- Slot4_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_9)
 
-	local currentcolor = false
-	script.Parent.MouseButton1Click:Connect(function()
-		currentcolor = not currentcolor
-		if currentcolor == true then
-			script.Parent.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		else
-			script.Parent.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		end
-		
-		
-	end)
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(RBQA_fake_script)()
+local function XCXFK_fake_script() -- Slot5_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(XCXFK_fake_script)()
+local function DCKEXZH_fake_script() -- Slot6_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(DCKEXZH_fake_script)()
+local function SKQIKQ_fake_script() -- Slot7_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(SKQIKQ_fake_script)()
+local function PSARY_fake_script() -- Slot8_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(PSARY_fake_script)()
+local function JUXJTU_fake_script() -- Slot9_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(JUXJTU_fake_script)()
+local function EWSQGZ_fake_script() -- Slot10_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(EWSQGZ_fake_script)()
+local function ENCZ_fake_script() -- Slot11_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(ENCZ_fake_script)()
+local function HPQIOPL_fake_script() -- Slot12_9.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_9)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(HPQIOPL_fake_script)()
+local function CEPP_fake_script() -- Slot1_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(CEPP_fake_script)()
+local function ACBG_fake_script() -- Slot2_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(ACBG_fake_script)()
+local function WHRPTJ_fake_script() -- Slot3_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(WHRPTJ_fake_script)()
+local function NMGN_fake_script() -- Slot4_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(NMGN_fake_script)()
+local function PYERL_fake_script() -- Slot5_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(PYERL_fake_script)()
+local function DZJZ_fake_script() -- Slot6_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(DZJZ_fake_script)()
+local function ONQVYIL_fake_script() -- Slot7_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(ONQVYIL_fake_script)()
+local function WDPJKCY_fake_script() -- Slot8_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(WDPJKCY_fake_script)()
+local function GXVX_fake_script() -- Slot9_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(GXVX_fake_script)()
+local function SLHDPY_fake_script() -- Slot10_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(SLHDPY_fake_script)()
+local function BIMRTR_fake_script() -- Slot11_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(BIMRTR_fake_script)()
+local function UFQLQ_fake_script() -- Slot12_10.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_10)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(UFQLQ_fake_script)()
+local function CAPI_fake_script() -- Slot1_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(CAPI_fake_script)()
+local function BMXERK_fake_script() -- Slot2_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(BMXERK_fake_script)()
+local function DKZAIF_fake_script() -- Slot3_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(DKZAIF_fake_script)()
+local function BJWH_fake_script() -- Slot4_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(BJWH_fake_script)()
+local function ATMW_fake_script() -- Slot5_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(ATMW_fake_script)()
+local function OQNHB_fake_script() -- Slot6_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(OQNHB_fake_script)()
+local function JDBT_fake_script() -- Slot7_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(JDBT_fake_script)()
+local function GWTREAX_fake_script() -- Slot8_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(GWTREAX_fake_script)()
+local function KMYAEWQ_fake_script() -- Slot9_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(KMYAEWQ_fake_script)()
+local function WKUGRLG_fake_script() -- Slot10_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(WKUGRLG_fake_script)()
+local function GQJYY_fake_script() -- Slot11_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(GQJYY_fake_script)()
+local function WVGC_fake_script() -- Slot12_11.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_11)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(WVGC_fake_script)()
+local function EWTHQ_fake_script() -- Slot1_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot1_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(EWTHQ_fake_script)()
+local function PZTIVTF_fake_script() -- Slot2_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot2_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(PZTIVTF_fake_script)()
+local function CUESCLW_fake_script() -- Slot3_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot3_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(CUESCLW_fake_script)()
+local function WGXD_fake_script() -- Slot4_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot4_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(WGXD_fake_script)()
+local function FNYMS_fake_script() -- Slot5_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot5_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(FNYMS_fake_script)()
+local function WGHTNC_fake_script() -- Slot6_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot6_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
 end
-coroutine.wrap(VXSKHHH_fake_script)()
-local function OOMCDP_fake_script() -- YeTechDrawGui.YeTechDrawGui.LocalScript 
-	local script = Instance.new('LocalScript', YeTechDrawGui.YeTechDrawGui)
+coroutine.wrap(WGHTNC_fake_script)()
+local function ZDMME_fake_script() -- Slot7_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot7_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(ZDMME_fake_script)()
+local function NXPSY_fake_script() -- Slot8_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot8_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(NXPSY_fake_script)()
+local function OCZFJTO_fake_script() -- Slot9_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot9_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(OCZFJTO_fake_script)()
+local function XIIIYKZ_fake_script() -- Slot10_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot10_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(XIIIYKZ_fake_script)()
+local function AMZZK_fake_script() -- Slot11_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot11_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(AMZZK_fake_script)()
+local function DCWTR_fake_script() -- Slot12_12.LocalScript 
+	local script = Instance.new('LocalScript', Slot12_12)
+
+	local colorState = 0
+	local colors = {
+		Color3.fromRGB(0, 0, 0),      -- Black
+		Color3.fromRGB(255,0,0), -- red
+		Color3.fromRGB(255,255,0), -- yellow
+		Color3.fromRGB(0,255,0), -- green
+		Color3.fromRGB(255, 255, 255) -- White
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		colorState = colorState + 1
+		if colorState > #colors then
+			colorState = 1
+		end
+		script.Parent.BackgroundColor3 = colors[colorState]
+	end)
+end
+coroutine.wrap(DCWTR_fake_script)()
+local function BJIL_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local clearButton = script.Parent
+	local function clearSlots()
+		local frame = clearButton.Parent.Frame
+		for _, row in ipairs(frame:GetChildren()) do
+			if row:IsA("Frame") and row.Name:match("row%d") then
+				for _, slot in ipairs(row:GetChildren()) do
+					if slot:IsA("GuiObject") and slot.Name:match("Slot%d+") then
+						slot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+					end
+				end
+			end
+		end
+	end
+	clearButton.MouseButton1Click:Connect(clearSlots)
+end
+coroutine.wrap(BJIL_fake_script)()
+local function ZLIBDV_fake_script() -- YeTechDrawGui.LocalScript 
+	local script = Instance.new('LocalScript', YeTechDrawGui)
 
 	script.Parent.Frame.Active = true
 	script.Parent.Frame.Draggable = true
 end
-coroutine.wrap(OOMCDP_fake_script)()
+coroutine.wrap(ZLIBDV_fake_script)()
