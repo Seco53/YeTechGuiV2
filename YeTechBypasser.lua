@@ -13,14 +13,14 @@ local TextButton_2 = Instance.new("TextButton")
 --Properties:
 
 YeTechChatBypass.Name = "YeTechChatBypass"
-YeTechChatBypass.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+YeTechChatBypass.Parent = game.CoreGui
 YeTechChatBypass.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = YeTechChatBypass
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(255, 234, 0)
 Frame.BorderSizePixel = 2
-Frame.Position = UDim2.new(0.367057979, 0, 0.246220499, 0)
+Frame.Position = UDim2.new(0.706648409, 0, 0.151971295, 0)
 Frame.Size = UDim2.new(0, 334, 0, 341)
 
 TextButton.Parent = Frame
@@ -81,7 +81,7 @@ TextButton_2.TextWrapped = true
 
 -- Scripts:
 
-local function KNKOW_fake_script() -- TextButton.LocalScript 
+local function QKBM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- Place this in a LocalScript inside a ScreenGui in StarterGui
@@ -145,8 +145,8 @@ local function KNKOW_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KNKOW_fake_script)()
-local function LTBUK_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(QKBM_fake_script)()
+local function OZKEC_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- Conversion tables for upper and lower case letters
@@ -194,11 +194,11 @@ local function LTBUK_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(LTBUK_fake_script)()
-local function CCYGG_fake_script() -- YeTechChatBypass.LocalScript 
+coroutine.wrap(OZKEC_fake_script)()
+local function TPZBXW_fake_script() -- YeTechChatBypass.LocalScript 
 	local script = Instance.new('LocalScript', YeTechChatBypass)
 
 	script.Parent.Frame.Active = true
 	script.Parent.Frame.Draggable = true
 end
-coroutine.wrap(CCYGG_fake_script)()
+coroutine.wrap(TPZBXW_fake_script)()
