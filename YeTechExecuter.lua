@@ -23,13 +23,13 @@ Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(255, 238, 0)
 Frame.BorderSizePixel = 2
 Frame.Position = UDim2.new(0.278493345, 0, 0.250798732, 0)
-Frame.Size = UDim2.new(0, 385, 0, 255)
+Frame.Size = UDim2.new(0, 420, 0, 306)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.BorderSizePixel = 2
-TextLabel.Size = UDim2.new(0, 385, 0, 50)
+TextLabel.Size = UDim2.new(0, 420, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "YeTech Executer"
 TextLabel.TextColor3 = Color3.fromRGB(255, 247, 0)
@@ -100,15 +100,15 @@ Frame_2.ZIndex = -2
 
 -- Scripts:
 
-local function ULYZ_fake_script() -- TextButton.LocalScript 
+local function GIDL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScrollingFrame.TextBox.Text = ""
 	end)
 end
-coroutine.wrap(ULYZ_fake_script)()
-local function VBPOVLP_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GIDL_fake_script)()
+local function PDYVG_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local function execute()
@@ -130,11 +130,11 @@ local function VBPOVLP_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(VBPOVLP_fake_script)()
-local function RELEELZ_fake_script() -- YeTechSilentExecuter.LocalScript 
+coroutine.wrap(PDYVG_fake_script)()
+local function LIYVKVS_fake_script() -- YeTechSilentExecuter.LocalScript 
 	local script = Instance.new('LocalScript', YeTechSilentExecuter)
 
 	script.Parent.Frame.Active = true
 	script.Parent.Frame.Draggable = true
 end
-coroutine.wrap(RELEELZ_fake_script)()
+coroutine.wrap(LIYVKVS_fake_script)()
