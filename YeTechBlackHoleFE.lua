@@ -77,37 +77,30 @@ TextButton_3.TextWrapped = true
 
 -- Scripts:
 
-local function DJPSCR_fake_script() -- TextButton.LocalScript 
+local function QXBY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local character = game.Players.LocalPlayer.Character
 		local rootPart = character and character:FindFirstChild("HumanoidRootPart")
-	
 		if not (character and rootPart) then
 			warn("Character or HumanoidRootPart is missing.")
 			return
 		end
-	
-		-- Helper function to check if a part belongs to a model with a humanoid
 		local function hasHumanoid(ancestor)
 			if ancestor:IsA("Model") then
 				return ancestor:FindFirstChild("Humanoid") ~= nil
 			end
 			return false
 		end
-	
-		-- Iterate through every descendant in the workspace
 		for _, descendant in ipairs(workspace:GetDescendants()) do
 			if descendant:IsA("BasePart") and not descendant.Anchored and not hasHumanoid(descendant.Parent) then
-				-- Create attachments
 				local attachment0 = Instance.new("Attachment")
 				attachment0.Parent = descendant
-	
+				descendant.BrickColor = BrickColor.new("Really black")
+				descendant.Transparency = 0.5
 				local attachment1 = Instance.new("Attachment")
 				attachment1.Parent = rootPart
-	
-				-- Create AlignPosition and configure it
 				local alignPosition = Instance.new("AlignPosition")
 				alignPosition.Attachment0 = attachment0
 				alignPosition.Attachment1 = attachment1
@@ -115,16 +108,14 @@ local function DJPSCR_fake_script() -- TextButton.LocalScript
 				alignPosition.Responsiveness = 2000
 				alignPosition.RigidityEnabled = false
 				alignPosition.Parent = descendant
-	
-				-- Reset part properties for smooth movement
 				descendant.CanCollide = false
 			end
 		end
 	end)
 	
 end
-coroutine.wrap(DJPSCR_fake_script)()
-local function AOUBJHG_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(QXBY_fake_script)()
+local function VTBPYR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -138,8 +129,8 @@ local function AOUBJHG_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AOUBJHG_fake_script)()
-local function GBPINEM_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(VTBPYR_fake_script)()
+local function GKAMVDR_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -147,12 +138,12 @@ local function GBPINEM_fake_script() -- TextButton_3.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(GBPINEM_fake_script)()
-local function DDMT_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(GKAMVDR_fake_script)()
+local function IMBPY_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local frame = script.Parent.Frame
 	frame.Active = true
 	frame.Draggable = true
 end
-coroutine.wrap(DDMT_fake_script)()
+coroutine.wrap(IMBPY_fake_script)()
