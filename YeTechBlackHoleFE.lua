@@ -143,7 +143,7 @@ local function GBPINEM_fake_script() -- TextButton_3.LocalScript
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(""))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Seco53/YeTechGuiV2/refs/heads/main/YeTechBlackHoleFE.lua"))()
 	end)
 end
 coroutine.wrap(GBPINEM_fake_script)()
