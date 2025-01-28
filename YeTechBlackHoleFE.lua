@@ -144,6 +144,7 @@ local function GBPINEM_fake_script() -- TextButton_3.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Seco53/YeTechGuiV2/refs/heads/main/YeTechBlackHoleFE.lua"))()
+		script.Parent.Parent.Parent:Destroy()
 	end)
 end
 coroutine.wrap(GBPINEM_fake_script)()
