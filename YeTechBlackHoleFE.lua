@@ -8,6 +8,7 @@ local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
 
 --Properties:
 
@@ -18,14 +19,15 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(255, 234, 0)
 Frame.BorderSizePixel = 2
-Frame.Position = UDim2.new(0.322388053, 0, 0.462068886, 0)
-Frame.Size = UDim2.new(0, 341, 0, 195)
+Frame.Position = UDim2.new(0.226865679, 0, 0.444137841, 0)
+Frame.Size = UDim2.new(0, 407, 0, 195)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.BorderSizePixel = 2
-TextLabel.Size = UDim2.new(0, 341, 0, 50)
+TextLabel.Position = UDim2.new(-3.74908815e-08, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 407, 0, 50)
 TextLabel.Font = Enum.Font.Gotham
 TextLabel.Text = "YeTech FE Black Hole Gui"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
@@ -38,8 +40,8 @@ TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(27, 27, 0)
 TextButton.BorderColor3 = Color3.fromRGB(255, 234, 0)
 TextButton.BorderSizePixel = 2
-TextButton.Position = UDim2.new(0.140762463, 0, 0.641025662, 0)
-TextButton.Size = UDim2.new(0, 245, 0, 50)
+TextButton.Position = UDim2.new(0.0424823426, 0, 0.630769253, 0)
+TextButton.Size = UDim2.new(0, 207, 0, 50)
 TextButton.Font = Enum.Font.Gotham
 TextButton.Text = "Activate"
 TextButton.TextColor3 = Color3.fromRGB(255, 238, 0)
@@ -51,8 +53,8 @@ TextButton_2.Parent = Frame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(27, 27, 0)
 TextButton_2.BorderColor3 = Color3.fromRGB(255, 234, 0)
 TextButton_2.BorderSizePixel = 2
-TextButton_2.Position = UDim2.new(0.140762463, 0, 0.323076934, 0)
-TextButton_2.Size = UDim2.new(0, 245, 0, 50)
+TextButton_2.Position = UDim2.new(0.0424823426, 0, 0.312820524, 0)
+TextButton_2.Size = UDim2.new(0, 207, 0, 50)
 TextButton_2.Font = Enum.Font.Gotham
 TextButton_2.Text = "Scan Parts"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 238, 0)
@@ -60,9 +62,22 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(27, 27, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 234, 0)
+TextButton_3.BorderSizePixel = 2
+TextButton_3.Position = UDim2.new(0.578108788, 0, 0.312820524, 0)
+TextButton_3.Size = UDim2.new(0, 162, 0, 112)
+TextButton_3.Font = Enum.Font.Gotham
+TextButton_3.Text = "Reload Script"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 238, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
 -- Scripts:
 
-local function ENMBJNZ_fake_script() -- TextButton.LocalScript 
+local function DJPSCR_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -108,8 +123,8 @@ local function ENMBJNZ_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(ENMBJNZ_fake_script)()
-local function GCIQQ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DJPSCR_fake_script)()
+local function AOUBJHG_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -123,12 +138,20 @@ local function GCIQQ_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GCIQQ_fake_script)()
-local function GBMPEAU_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(AOUBJHG_fake_script)()
+local function GBPINEM_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(""))()
+	end)
+end
+coroutine.wrap(GBPINEM_fake_script)()
+local function DDMT_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local frame = script.Parent.Frame
 	frame.Active = true
 	frame.Draggable = true
 end
-coroutine.wrap(GBMPEAU_fake_script)()
+coroutine.wrap(DDMT_fake_script)()
