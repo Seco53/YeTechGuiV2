@@ -60,8 +60,6 @@ local function JOFO_fake_script() -- TextButton.LocalScript
 		local loadedObject = objects[1]
 		loadedObject.Parent = tool
 		loadedObject.Anchored = false
-		loadedObject.Name = "Handle"
-		tool.Handle = loadedObject
 	
 		-- Create animations
 		local r6Animation = Instance.new("Animation")
